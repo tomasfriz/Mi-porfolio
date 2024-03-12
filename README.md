@@ -9,7 +9,7 @@
 
 - 🤝 estoy buscando ayuda con **buscar trabajo**
 
-- 👨‍💻 Todos mis proyectos están disponibles en [https://github.com/tomasfriz/Mis-Proyectos](https://github.com/tomasfriz/Mis-Proyectos)
+- 👨‍💻 Todos mis proyectos están disponibles en [https://github.com/tomasfriz/Tomas-Agustin-Friz.git](https://github.com/tomasfriz/Tomas-Agustin-Friz.git)
 
 - 📝 Escribo regularmente artículos sobre [mi hobby como cosplayer](mi hobby como cosplayer)
 
