@@ -1,7 +1,7 @@
 <h1 align="center">Hola 👋, yo soy Tomás Agustín Friz</h1>
 <h3 align="center">Soy un Desarrollador Web apasionado</h3>
 
-- 🔭 Actualmente estoy trabajando en **varios proyectos como freelance**
+- 🔭 Actualmente estoy trabajando en **varios proyectos**
 
 - 🌱 actualmente estoy aprendiendo **Analista de Sistemas**
 
@@ -9,7 +9,9 @@
 
 - 🤝 estoy buscando ayuda con **buscar trabajo**
 
-- 👨‍💻 Todos mis proyectos están disponibles en [https://github.com/tomasfriz/Tomas-Agustin-Friz.git](https://github.com/tomasfriz/Tomas-Agustin-Friz.git)
+- 👨‍💻 Todos mis proyectos están disponibles en [https://github.com/tomasfriz/Mi-porfolio.git](https://github.com/tomasfriz/Mi-porfolio.git)
+
+- 📝 Escribo regularmente artículos sobre [mi hobby como cosplayer](mi hobby como cosplayer)
 
 - 💬 Preguntame sobre **HTML, CSS, Javascript, Java, C, C#, Python, Bootstrap, VUE.js, React, React Native, Wordpress, Angular, Vite.js, Node.js, PHP, Laravel, Firebase, SQLServer, MongoDB, MySQL, PWA, UX/UI, Arduino, Github, Photoshop, Illustrator, Figma, Canva.**
 
