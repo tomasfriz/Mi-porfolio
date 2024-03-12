@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Mirar una serie",
+        "completed": true
+    },
+    {
+        "name": "Ir al teatro",
+        "completed": false
+    },
+    {
+        "name": "Ir al cine",
+        "completed": true
+    },
+    {
+        "name": "Hacer ejercicio",
+        "completed": true
+    },
+    {
+        "name": "Pasear al perro",
+        "completed": true
+    },
+    {
+        "name": "Ver una pelicula",
+        "completed": false
+    }
+]

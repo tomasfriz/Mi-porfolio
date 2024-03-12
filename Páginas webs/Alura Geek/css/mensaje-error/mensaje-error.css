@@ -1,0 +1,12 @@
+.mensaje__error {
+    display: none;
+}
+
+.input__invalido .mensaje__error {
+    display: block;
+    color: var(--color-error);
+}
+
+.input__invalido .input {
+    border: 1px solid var(--color-error);
+}

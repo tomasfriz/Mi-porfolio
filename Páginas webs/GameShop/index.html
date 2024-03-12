@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GameShop</title>
+    <link rel="manifest" href="./manifest.json">
+    <link rel="shortcut icon" href="./img/icono.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" media="(prefers-color-scheme: light)" href="./css/light.css">
+    <link rel="stylesheet" media="(prefers-color-scheme: dark)" href="./css/dark.css">
+    <script type="module" src="https://unpkg.com/dark-mode-toggle"></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header-mobile">
+            <h1 class="logo">GameShop</h1>
+            <button class="open-menu" id="open-menu">
+                <i class="bi bi-list"></i>
+            </button>
+        </header>
+        <aside>
+            <button class="close-menu" id="close-menu">
+                <i class="bi bi-x"></i>
+            </button>
+            <header>
+                <h1 class="logo">GameShop</h1>
+            </header>
+            <nav>
+                <ul class="menu">
+                    <li>
+                        <button id="todos" class="boton-menu boton-categoria active"><i
+                                class="bi bi-hand-index-thumb-fill"></i> Todos los productos</button>
+                    </li>
+                    <li>
+                        <button id="PS4" class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i>
+                            Juegos PS4</button>
+                    </li>
+                    <li>
+                        <button id="PS5" class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i>
+                            Juegos PS5</button>
+                    </li>
+                    <li>
+                        <a class="boton-menu boton-carrito" href="./carrito.html">
+                            <i class="bi bi-cart-fill"></i> Carrito <span id="numerito" class="numerito">0</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <footer>
+                <p class="texto-footer">©CrazyTech</p>
+            </footer>
+        </aside>
+        <main>
+            <h2 class="titulo-principal" id="titulo-principal">Todos los productos</h2>
+            <dark-mode-toggle id="dark-mode-toggle-1" appearance="toggle" dark="Dark" light="Light"></dark-mode-toggle>
+            <div id="contenedor-productos" class="contenedor-productos">
+                <!-- Esto se va a rellenar con JS -->
+            </div>
+        </main>
+    </div>
+    <script src="./js/main.js"></script>
+    <script src="./js/menu.js"></script>
+    <script src="./js/storage.js"></script>
+    <script src="./js/indexdb.js"></script>
+    <script>
+        // Registro
+        if ('serviceWorker' in navigator) {
+            try {
+                var swRegistration = navigator.serviceWorker.register("sw.js");
+                console.log("sw registrado");
+            } catch (error) {
+                console.log("sw registro fallido");
+            }
+        } else {
+            console.log("sw no soportado");
+        }
+    </script>
+</body>
+
+</html>

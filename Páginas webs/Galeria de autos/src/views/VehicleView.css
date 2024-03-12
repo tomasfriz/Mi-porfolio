@@ -1,0 +1,10 @@
+.vehicleView{
+    max-width: 90%;
+    margin: auto;
+    text-align: center;
+}
+
+.vehicleView img {
+    display: block;
+    max-width: 100%;
+}

@@ -1,0 +1,177 @@
+/* Configuracion de PC */
+
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'verdana';
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+body {
+    background-color: darkcyan;
+}
+
+header {
+    background-image: url(../images/fondo.jpg);
+    width: 100%;
+    text-align: center;
+    padding: 30px 0px;
+    margin: 0px auto;
+}
+
+.navegacion {
+    display: inline-block;
+    background-color: white;
+    font-weight: bold;
+    color: black;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 8px;
+}
+
+.navegacion:hover {
+    border: solid 5px cyan;
+}
+
+h1 {
+    margin-bottom: 50px;
+    font-size: 50px;
+}
+
+h2 {
+    margin: 50px;
+}
+
+h3 {
+    font-weight: bold;
+    margin: 50px;
+}
+
+main {
+    background-color: darkcyan;
+    margin: 30px;
+}
+
+p {
+    margin: 30px;
+}
+
+div {
+    margin: 30px;
+}
+
+img {
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    transition: 0.5s;
+    object-fit: cover;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
+.lista {
+    text-align: left;
+    margin-left: 40%;
+}
+
+.sin_zoom {
+    transform: none !important;
+}
+
+a:hover {
+    color: cyan;
+}
+
+footer {
+    background-image: url(../images/fondo.jpg);
+    width: 100%;
+    padding: 30px 0px;
+    margin: 0px auto;
+}
+
+.redsoc {
+    padding: 20px;
+    filter: grayscale(100);
+}
+
+.redsoc:hover {
+    filter: grayscale(0);
+}
+
+footer div a img {
+    transform: none ;
+    box-shadow: none ;
+}
+
+form {
+    display: inline-block;
+    border-radius: 10px;
+    background-color: darkturquoise;
+    padding: 2% 1%;
+    margin: 30px;
+}
+
+fieldset {
+    border: solid 3px white;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+legend span {
+    padding: 10px;
+    margin: 5px;
+    background: darkcyan;
+    border-radius: 10px;
+    text-align: center;
+    border: solid 3px white;
+}
+
+label {
+    font-size: x-large;
+}
+
+input[type=text],
+input[type=tel],
+input[type=email] {
+    width: 80%;
+    color: black;
+    padding: 2%;
+    margin: 2%;
+    border: 1vw;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 90%;
+    background-color: darkgreen;
+    color: white;
+    padding: 20px 20px;
+    margin: 10px 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+input[type=reset] {
+    width: 90%;
+    background-color: darkred;
+    color: white;
+    padding: 20px 20px;
+    margin: 10px 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: green;
+}
+
+input[type=reset]:hover {
+    background-color: brown;
+}

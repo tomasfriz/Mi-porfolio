@@ -1,0 +1,53 @@
+            <div class="producto__imagen">
+                <img src="./img/productos/starwar/producto 1.png" alt="">
+            </div>
+            <div class="producto__texto">
+                <h3 class="producto__titulo">Producto XYZ</h3>
+                <h4 class="producto__valor">$60</h4>
+                <p class="producto__descripcion">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque animi ab quos magnam, perferendis rem illum consectetur tenetur veritatis, itaque accusamus. Quae neque voluptas delectus omnis maxime similique natus veniam cupiditate, doloremque minima sed quisquam. Ad animi architecto impedit nostrum aut officia tempora dolorem soluta.
+                </p>
+                <div class="producto__modificar">
+                    <i class="fa-solid fa-pen-to-square"></i>
+                <i class="fa-solid fa-trash-can"></i>
+                </div>
+            </div>
+
+            <img class="producto__venta-img" src="${producto.imagen}" alt="">
+
+<div class="productos__venta-articulo">
+                    <img class="producto__venta-img" src="./img/productos/starwar/producto 1.png" alt="">
+                    <h3 class="producto__venta-titulo">Producto XYZ</h3>
+                    <h4 class="producto__venta-precio">$ 60,00</h4>
+                    <a class="producto__venta-link" href="producto.html">Ver producto</a>
+                </div>
+                <div class="productos__venta-articulo">
+                    <img class="producto__venta-img" src="./img/productos/starwar/producto 2.png" alt="">
+                    <h3 class="producto__venta-titulo">Producto XYZ</h3>
+                    <h4 class="producto__venta-precio">$ 60,00</h4>
+                    <a class="producto__venta-link" href="producto.html">Ver producto</a>
+                </div>
+                <div class="productos__venta-articulo">
+                    <img class="producto__venta-img" src="./img/productos/starwar/producto 3.png" alt="">
+                    <h3 class="producto__venta-titulo">Producto XYZ</h3>
+                    <h4 class="producto__venta-precio">$ 60,00</h4>
+                    <a class="producto__venta-link" href="producto.html">Ver producto</a>
+                </div>
+                <div class="productos__venta-articulo">
+                    <img class="producto__venta-img" src="./img/productos/starwar/producto 4.png" alt="">
+                    <h3 class="producto__venta-titulo">Producto XYZ</h3>
+                    <h4 class="producto__venta-precio">$ 60,00</h4>
+                    <a class="producto__venta-link" href="producto.html">Ver producto</a>
+                </div>
+                <div class="productos__venta-articulo">
+                    <img class="producto__venta-img" src="./img/productos/starwar/producto 5.png" alt="">
+                    <h3 class="producto__venta-titulo">Producto XYZ</h3>
+                    <h4 class="producto__venta-precio">$ 60,00</h4>
+                    <a class="producto__venta-link" href="producto.html">Ver producto</a>
+                </div>
+                <div class="productos__venta-articulo">
+                    <img class="producto__venta-img" src="./img/productos/starwar/producto 6.png" alt="">
+                    <h3 class="producto__venta-titulo">Producto XYZ</h3>
+                    <h4 class="producto__venta-precio">$ 60,00</h4>
+                    <a class="producto__venta-link" href="producto.html">Ver producto</a>
+                </div>

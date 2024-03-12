@@ -1,0 +1,38 @@
+/* Configuracion de Mobile */
+
+* {
+    font-size: xx-large;
+}
+
+.lista {
+    margin-left: 20%;
+}
+
+iframe {
+    width: 98%;
+}
+
+img {
+    width: 100%;
+}
+
+img:hover {
+    transform: none;
+}
+
+legend span{
+    padding: 5px;
+    margin: 0px;
+}
+
+input[type=text],
+input[type=tel],
+input[type=email] {
+    width: 80%;
+    color: black;
+    padding: 2% 0%;
+    margin: 2% 0%;
+    border: 1vw;
+    border-radius: 5px;
+    box-sizing: border-box;
+}

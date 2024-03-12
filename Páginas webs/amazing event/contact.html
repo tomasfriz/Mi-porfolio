@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="shortcut icon" href="./assets/images/icono.ico" type="image/x-icon">
+  <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg ps-5 pe-5">
+      <div class="container-fluid">
+        <img src="./assets/images/Logo-Amazing-Events.png" alt="Logo de Amazing Events">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item d-flex justify-content-center">
+              <a class="nav-link" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item d-flex justify-content-center">
+              <a class="nav-link" href="./futureEvents.html">Upcoming Events</a>
+            </li>
+            <li class="nav-item d-flex justify-content-center">
+              <a class="nav-link" href="./pastEvents.html">Past Events</a>
+            </li>
+            <li class="nav-item d-flex justify-content-center">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+            <li class="nav-item d-flex justify-content-center">
+              <a class="nav-link" href="./stats.html">Stats</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="d-flex justify-content-center">
+      <h1 class="fs-1" id="Title">Contact Us</h1>
+    </div>
+  </header>
+  <main class="mb-5">
+    <div class="d-flex justify-content-center text-center">
+      <h2 class="fs-2" id="Title">If you are interested in any of our events you can contact us</h2>
+    </div>
+    <form class="formulario" action="./thankYou.html" method="get">
+      <div class="mb-3 w-50">
+        <label for="name" class="form-label">Name:</label>
+        <input type="text" class="form-control border-danger-subtle" id="name" placeholder="name" minlength="2" required>
+      </div>
+      <div class="mb-3 w-50">
+        <label for="email" class="form-label">Email:</label>
+        <input type="email" class="form-control border-danger-subtle" id="email"
+          placeholder="name@example.com" minlength="2" required>
+      </div>
+      <div class="mb-3 w-50">
+        <label for="phone" class="form-label">Phone:</label>
+        <input type="number" class="form-control border-danger-subtle" id="phone"
+          placeholder="54-11-2345-6789 (no hyphens)" minlength="2" required>
+      </div>
+      <div class="mb-3 w-50">
+        <label for="consultation" class="form-label">Consultation:</label>
+        <textarea class="form-control border-danger-subtle" id="consultation" placeholder="Message..." rows="3" minlength="2"></textarea>
+      </div>
+      <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+        <button class="btn btn-success boton my-3" type="submit">submit</button>
+      </div>
+    </form>
+  </main>
+  <footer
+    class="d-flex flex-wrap justify-content-center align-items-center px-5 pb-1pt-2 mt-4 border-top bottom-0 w-100">
+    <div class="d-flex justify-content-center">
+      <a class="redsoc" href="https://www.instagram.com/"><img src="./assets/images/instagram.png"
+          alt="logo de instagram"></a>
+      <a class="redsoc" href="https://www.facebook.com/"><img src="./assets/images/logo-de-facebook.png"
+          alt="logo de facebook"></a>
+      <a class="redsoc" href="https://www.whatsapp.com/"><img src="./assets/images/whatsapp.png"
+          alt="logo de whatsapp"></a>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

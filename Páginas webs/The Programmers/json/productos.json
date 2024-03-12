@@ -1,0 +1,258 @@
+[
+    {
+        "id": "01",
+        "titulo": "Angular",
+        "imagen": "/images/programador/angular.webp",
+        "categoria": "Programador",
+        "descripcion": "Angular es un framework de ingeniería de software de código abierto mantenido por Google, que sirve para desarrollar aplicaciones web de estilo Single Page Application (SPA) y Progressive Web App (PWA). Sirve tanto para versiones móviles como de escritorio. En este curso aprenderás como programar con Angular desde cero a experto.",
+        "precio": 24500
+    },
+    {
+        "id": "02",
+        "titulo": "C#",
+        "imagen": "/images/programador/c_sharp.webp",
+        "categoria": "Programador",
+        "descripcion": "C# es un lenguaje de programación moderno, basado en objetos y con seguridad de tipos. C# permite a los desarrolladores crear muchos tipos de aplicaciones seguras y sólidas que se ejecutan en .NET . En este curso aprenderás como programar con C# desde cero a experto.",
+        "precio": 20700
+    },
+    {
+        "id": "03",
+        "titulo": "Go",
+        "imagen": "/images/programador/go.webp",
+        "categoria": "Programador",
+        "descripcion": "Go, también conocido como Golang, es un lenguaje de programación desarrollado por Google. Se caracteriza por su simplicidad y eficiencia, y se utiliza para desarrollar una amplia variedad de aplicaciones, desde programas de línea de comandos hasta sistemas distribuidos y aplicaciones web de alta escala. En este curso aprenderás como programar con Go desde cero a experto.",
+        "precio": 19300
+    },
+    {
+        "id": "04",
+        "titulo": "Java",
+        "imagen": "/images/programador/java.webp",
+        "categoria": "Programador",
+        "descripcion": "Java es un lenguaje de programación ampliamente utilizado para codificar aplicaciones web. Ha sido una opción popular entre los desarrolladores durante más de dos décadas, con millones de aplicaciones Java en uso en la actualidad. En este curso aprenderás como programar con Java desde cero a experto.",
+        "precio": 16500
+    },
+    {
+        "id": "05",
+        "titulo": "MySQL",
+        "imagen": "/images/programador/mysql.webp",
+        "categoria": "Programador",
+        "descripcion": "MySQL es un sistema de bases de datos de Oracle que se utiliza en todo el mundo para gestionar bases de datos. Se basa en el álgebra relacional y se utiliza principalmente para el almacenamiento de datos de diversos servicios web. Los CMS más conocidos que utilizan MySQL son, por ejemplo, WordPress y TYPO3. En este curso aprenderás como usar MySQL desde cero a experto.",
+        "precio": 17900
+    },
+    {
+        "id": "06",
+        "titulo": "PostgreSQL",
+        "imagen": "/images/programador/postgresql.webp",
+        "categoria": "Programador",
+        "descripcion": "PostgreSQL es un sistema o motor de bases de datos compatible con los servicios de OVHcloud y la mayoría de las herramientas más populares del mercado. Es compatible con diversos modelos de datos para crear aplicaciones orientadas a objetos, potentes y escalables. En este curso aprenderás como usar PostgreSQL desde cero a experto.",
+        "precio": 30300
+    },
+    {
+        "id": "07",
+        "titulo": "Python",
+        "imagen": "/images/programador/python.webp",
+        "categoria": "Programador",
+        "descripcion": "Python es un lenguaje de programación ampliamente utilizado en las aplicaciones web, el desarrollo de software, la ciencia de datos y el machine learning (ML). Los desarrolladores utilizan Python porque es eficiente y fácil de aprender, además de que se puede ejecutar en muchas plataformas diferentes. En este curso aprenderás como programar con Python desde cero a experto.",
+        "precio": 15100
+    },
+    {
+        "id": "08",
+        "titulo": "TypeScript",
+        "imagen": "/images/programador/typescript.webp",
+        "categoria": "Programador",
+        "descripcion": "TypeScript es un lenguaje de programación libre y de código abierto desarrollado y mantenido por Microsoft. Es un superconjunto de JavaScript, que esencialmente añade tipos estáticos y objetos basados en clases. En este curso aprenderás como programar con TypeScript desde cero a experto.",
+        "precio": 5500
+    },
+    {
+        "id": "09",
+        "titulo": "CSS3",
+        "imagen": "/images/desarrollador_web/css3.webp",
+        "categoria": "Desarrollador Web",
+        "descripcion": "CSS3 es un tipo de lenguaje que permite definir y crear la presentación de un documento ya estructurado y escrito en un lenguaje de marcado como puede ser HTML. Es decir, permite generar el diseño visual de páginas web e interfaces de usuario. En este curso aprenderás como programar con CSS3 desde cero a experto.",
+        "precio": 5500
+    },
+    {
+        "id": "10",
+        "titulo": "Firebase",
+        "imagen": "/images/desarrollador_web/firebase.webp",
+        "categoria": "Desarrollador Web",
+        "descripcion": "Firebase es una herramienta ágil, sencilla y nos permite olvidarnos de la infraestructura. Firebase nos proporciona APIs intuitivas integradas todas en un sólo SDK, lo que nos permite centrarnos en resolver los problemas de nuestros clientes en vez de focalizarnos en crear una infraestructura compleja. En este curso aprenderás como usar Firebase desde cero a experto.",
+        "precio": 9600
+    },
+    {
+        "id": "11",
+        "titulo": "HTML5",
+        "imagen": "/images/desarrollador_web/html5.webp",
+        "categoria": "Desarrollador Web",
+        "descripcion": "HTML5 nos permite crear la estructura de una página web, por así decirlo, su esqueleto, donde vamos a incorporar posteriormente, imágenes, textos, vídeos y todo tipo de material multimedia de forma que se pueda visualizar correctamente. En este curso aprenderás como programar con HTML5 desde cero a experto.",
+        "precio": 19300
+    },
+    {
+        "id": "12",
+        "titulo": "JavaScript",
+        "imagen": "/images/desarrollador_web/javascript.webp",
+        "categoria": "Desarrollador Web",
+        "descripcion": "JavaScript es un lenguaje de programación que los desarrolladores utilizan para hacer páginas web interactivas. Desde actualizar fuentes de redes sociales a mostrar animaciones y mapas interactivos, las funciones de JavaScript pueden mejorar la experiencia del usuario de un sitio web. En este curso aprenderás como programar con JavaScript desde cero a experto.",
+        "precio": 20700
+    },
+    {
+        "id": "13",
+        "titulo": "React",
+        "imagen": "/images/desarrollador_web/react.webp",
+        "categoria": "Desarrollador Web",
+        "descripcion": "React es una de las librerías más populares de JavaScript para el desarrollo de aplicaciones móviles y web. Creada por Facebook, React contiene una colección de fragmentos de código JavaScript reutilizables utilizados para crear interfaces de usuario (UI) llamadas componentes. En este curso aprenderás como programar con React desde cero a experto.",
+        "precio": 22700
+    },
+    {
+        "id": "14",
+        "titulo": "VueJS",
+        "imagen": "/images/desarrollador_web/vuejs.webp",
+        "categoria": "Desarrollador Web",
+        "descripcion": "VueJS es un marco JavaScript progresivo de código abierto para crear interfaces de usuario (UI) y aplicaciones de una sola página; se conoce comúnmente como Vue. Este marco utiliza alto desacoplamiento, lo que permite a los desarrolladores crear progresivamente interfaces de usuario (UI). En este curso aprenderás como programar con VueJS desde cero a experto.",
+        "precio": 6100
+    },
+    {
+        "id": "15",
+        "titulo": "WOO",
+        "imagen": "/images/desarrollador_web/woo.webp",
+        "categoria": "Desarrollador Web",
+        "descripcion": "WOO es una plataforma de comercio electrónico de código abierto basada en la web que ayuda en la creación de tiendas online con temas, pagos y opciones de envío y más. En este curso aprenderás como usar WOO desde cero a experto.",
+        "precio": 12400
+    },
+    {
+        "id": "16",
+        "titulo": "Wordpress",
+        "imagen": "/images/desarrollador_web/wordpress.webp",
+        "categoria": "Desarrollador Web",
+        "descripcion": "WordPress es un sistema de gestión de contenidos web (CMS o content management system), que en pocas palabras es un sistema para publicar contenido en la web de forma sencilla. En este curso aprenderás como usar Wordpress desde cero a experto.",
+        "precio": 17500
+    },
+    {
+        "id": "17",
+        "titulo": "Blender",
+        "imagen": "/images/desarrollador_de_videojuegos/blender.webp",
+        "categoria": "Desarrollador de Videojuegos",
+        "descripcion": "Blender es una suite de creación de contenido 3D totalmente integrada que ofrece una amplia gama de herramientas esenciales, que incluyen Modelado, Renderizado, Animación & Rigging, Edición de Video, VFX, Composición, Texturizado y muchos tipos de Simulaciones. En este curso aprenderás como usar Blender desde cero a experto.",
+        "precio": 20400
+    },
+    {
+        "id": "18",
+        "titulo": "C++",
+        "imagen": "/images/desarrollador_de_videojuegos/c++.webp",
+        "categoria": "Desarrollador de Videojuegos",
+        "descripcion": "C++ es un lenguaje de programación. La intención de su creación fue extender al lenguaje de programación C y añadir mecanismos que permiten la manipulación de objetos. En ese sentido, desde el punto de vista de los lenguajes orientados a objetos, C++ es un lenguaje híbrido. En este curso aprenderás como programar con C++ desde cero a experto.",
+        "precio": 18800
+    },
+    {
+        "id": "19",
+        "titulo": "Construct 3",
+        "imagen": "/images/desarrollador_de_videojuegos/construct_3.webp",
+        "categoria": "Desarrollador de Videojuegos",
+        "descripcion": "Construct 3 es un software de desarrollo de juegos 2D que se ejecuta en el navegador y es utilizado por instituciones escolares, desarrolladores independientes y empresas de desarrollo de juegos de todo el mundo. En este curso aprenderás como usar Construct 3 desde cero a experto.",
+        "precio": 13800
+    },
+    {
+        "id": "20",
+        "titulo": "Scratch",
+        "imagen": "/images/desarrollador_de_videojuegos/scratch.webp",
+        "categoria": "Desarrollador de Videojuegos",
+        "descripcion": "Scratch sirve como herramienta para enseñar la lógica fundamental de la programación de una forma divertida y sencilla. En Scratch, niños y mayores pueden crear divertidos proyectos que no solo entretienen, sino que te muestran una forma nueva de programar. En este curso aprenderás como usar Scratch desde cero a experto.",
+        "precio": 14900
+    },
+    {
+        "id": "21",
+        "titulo": "Unity",
+        "imagen": "/images/desarrollador_de_videojuegos/unity.webp",
+        "categoria": "Desarrollador de Videojuegos",
+        "descripcion": "Unity es un motor gráfico multiplataforma 2D y 3D, que está transformando la industria del videojuego, sirve para la creación de videojuegos. Puedes desarrollar juegos para varios dispositivos sin cambiar de plataforma. En este curso aprenderás como usar Unity desde cero a experto.",
+        "precio": 22100
+    },
+    {
+        "id": "22",
+        "titulo": "Unity 3D",
+        "imagen": "/images/desarrollador_de_videojuegos/unity_3d.webp",
+        "categoria": "Desarrollador de Videojuegos",
+        "descripcion": "Unity 3D es un motor de videojuego multiplataforma. Unity está disponible como plataforma de desarrollo para Microsoft Windows, Mac OS, Linux. La plataforma de desarrollo tiene soporte de compilación con diferentes tipos de plataformas. En este curso aprenderás como usar Unity 3D desde cero a experto.",
+        "precio": 22700
+    },
+    {
+        "id": "23",
+        "titulo": "Unreal Engine 4",
+        "imagen": "/images/desarrollador_de_videojuegos/unreal_engine_4.webp",
+        "categoria": "Desarrollador de Videojuegos",
+        "descripcion": "Unreal Engine 4 es una herramienta que te permite comenzar a desarrollar juegos de realidad virtual y aplicaciones virtuales. Tiene una variedad de plataformas. Si quieres programar con Unreal Engine 4, podrás crear juegos para una plataforma y puertos para consolas o tablets Android con gran facilidad. En este curso aprenderás como usar Unreal Engine 4 desde cero a experto.",
+        "precio": 24800
+    },
+    {
+        "id": "24",
+        "titulo": "Juegos con JavaScript",
+        "imagen": "/images/desarrollador_de_videojuegos/videojuegos_javascript.webp",
+        "categoria": "Desarrollador de Videojuegos",
+        "descripcion": "En este curso te ayudaré a iniciarte en el apasionante mundo de la programación de videojuegos desde cero a experto, para que en pocos días puedas empezar a crear tus primeros juegos de estilo retro.",
+        "precio": 11100
+    },
+    {
+        "id": "25",
+        "titulo": "Adobe After Effects",
+        "imagen": "/images/diseño_grafico/adobe_after_effects.webp",
+        "categoria": "Diseño Gráfico",
+        "descripcion": "Adobe After Effects es un software de motion graphics y composición digital. Se usa principalmente para posproducción de imágenes en movimiento, animar, alterar y componer creaciones en espacios 2D y 3D con varias herramientas nativas y plugins de terceros. En este curso aprenderás como usar Adobe After Effects desde cero a experto.",
+        "precio": 5900
+    },
+    {
+        "id": "26",
+        "titulo": "Adobe Color",
+        "imagen": "/images/diseño_grafico/adobe_color.webp",
+        "categoria": "Diseño Gráfico",
+        "descripcion": "Adobe Color es una aplicación que permite a los profesionales creativos explorar, crear y compartir temas de color. Siga las Directrices de la comunidad para garantizar a todos los usuarios de la comunidad una experiencia en Adobe Color CC agradable, inspiradora y segura. En este curso aprenderás como usar Adobe Color desde cero a experto.",
+        "precio": 2700
+    },
+    {
+        "id": "27",
+        "titulo": "Adobe Illustrator",
+        "imagen": "/images/diseño_grafico/adobe_illustrator.webp",
+        "categoria": "Diseño Gráfico",
+        "descripcion": "Adobe Illustrator es una aplicación de gráficos vectoriales estándar del sector que te permite crear logotipos, iconos, dibujos, tipografías e ilustraciones complejas para cualquier medio. En este curso aprenderás como usar Adobe Illustrator desde cero a experto.",
+        "precio": 21500
+    },
+    {
+        "id": "28",
+        "titulo": "Adobe InDesign",
+        "imagen": "/images/diseño_grafico/adobe_indesign.webp",
+        "categoria": "Diseño Gráfico",
+        "descripcion": "Adobe InDesign sirve para diseñar libros, revistas, periódicos, catálogos, folletos, carteles y cualquier otro tipo de material impreso. La aplicación te permite confeccionar diseños de páginas precisos y combinar texto, imágenes y gráficos de manera profesional, e incluso fórmulas matemáticas. En este curso aprenderás como usar Adobe InDesign desde cero a experto.",
+        "precio": 16500
+    },
+    {
+        "id": "29",
+        "titulo": "Adobe Photoshop",
+        "imagen": "/images/diseño_grafico/adobe_photoshop.webp",
+        "categoria": "Diseño Gráfico",
+        "descripcion": "Adobe Photoshop es una herramienta profesional de edición digital se usa principalmente por fotógrafos y diseñadores para retocar imágenes y editar videos, crear mapas de bits y GIFs, y hacer diseños e ilustraciones. También se pueden modificar colores y añadir filtros, efectos, textos, figuras y formas. En este curso aprenderás como usar Adobe Photoshop desde cero a experto.",
+        "precio": 20400
+    },
+    {
+        "id": "30",
+        "titulo": "Adobe XD",
+        "imagen": "/images/diseño_grafico/adobe_xd.webp",
+        "categoria": "Diseño Gráfico",
+        "descripcion": "Adobe XD permite a los diseñadores de UX diseñar experiencias de usuario interactivas para aplicaciones web y móviles, utilizando una sola aplicación. Puede realizar diseños rápidos y sencillos en las mesas de trabajo de XD. En este curso aprenderás como usar Adobe XD desde cero a experto.",
+        "precio": 13800
+    },
+    {
+        "id": "31",
+        "titulo": "Canva",
+        "imagen": "/images/diseño_grafico/canva.webp",
+        "categoria": "Diseño Gráfico",
+        "descripcion": "Canva es un software y sitio web de herramientas de diseño gráfico simplificado. Utiliza un formato de arrastrar y soltar e incluso permite de manera proporcionada hacer grandes y pequeñas las figuras y proporciona acceso a más de 60 millones de fotografías y 5 millones de vectores, gráficos y fuentes. Sus herramientas se pueden utilizar tanto para el diseño web como para los medios de impresión y gráficos. En este curso aprenderás como usar Canva desde cero a experto.",
+        "precio": 16500
+    },
+    {
+        "id": "32",
+        "titulo": "Creative Cloud Express",
+        "imagen": "/images/diseño_grafico/creative_cloud_express.webp",
+        "categoria": "Diseño Gráfico",
+        "descripcion": "Creative Cloud Express es una aplicación web y móvil que permite editar imágenes, videos, crear gráficos para redes sociales y mucho mas. En este curso aprenderás como usar Creative Cloud Express desde cero a experto.",
+        "precio": 3500
+    }
+]

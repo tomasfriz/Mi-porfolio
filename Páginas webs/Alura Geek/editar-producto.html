@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alura Geek</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link href="./css/reset.css" rel="stylesheet">
+    <link href="./css/colores.css" rel="stylesheet">
+    <link href="./css/page.css" rel="stylesheet">
+    <link href="./css/header.css" rel="stylesheet">
+    <link href="./css/agregar-producto/agregar-producto.css" rel="stylesheet">
+    <link href="./css/footer.css" rel="stylesheet">
+    <link href="./css/mensaje-error/mensaje-error.css" rel="stylesheet">
+</head>
+<body class="page">
+    <header class="header">
+        <div class="header__cabeza">
+            <h1 class="header__logo-img"><a href="index.html"><img src="./img/Logo.png" alt="Logo Alura Geek"></a></h1>
+            <form class="header__input header__input-fuera">
+                <input type="text" class="header__input-texto" placeholder="¿Qué estás buscando?">
+                <button class="header__input-boton"><img src="./img/Icone_lupa.png" alt="Icono Lupa"></button>
+            </form>
+        </div>
+        <a href="login.html" class="header__login">Login</a>
+        <button class="header__hamburguesa"><img src="./img/Icone_lupa.png" alt="Icono Lupa"></button>
+    </header>
+    <main>
+        <section class="agregar">
+            <div class="agregar__titulo">
+                <h3>Editar Producto</h3>
+            </div>
+            <div class="agregar__box">
+                <form class="agregar__form" id="agregar__form">
+                    <div class="agregar__form__imagen">
+                        <div class="agregar__imagen-div" id="box__imagen"></div>
+                        <label for="input__imagen" class="input__image-label"> Elegir archivo</label>
+                        <input type="file" class="agregar__imagen input" id="input__imagen"
+                            data-input="imagen_agregar_producto" accept="image/*">
+                    </div>
+                    <div class="falta__carga__archivo">
+                        <span class="mensaje__error archivo__faltante">Debe seleccionar un archivo de imagen para cargar
+                            en el producto</span>
+                    </div>
+                    <div class="agregar__form__seccion">
+                        <label for="seccion">Elegir Sección</label>
+                        <select name="seccion" id="seccion" class="agregar__seccion" form="agregar__form" required>
+                            <option value="" disabled selected hidden></option>
+                            <option value="Starwar">Star Wars</option>
+                            <option value="Consolas">Consolas</option>
+                            <option value="Diversos">Diversos</option>
+                        </select>
+                    </div>
+                    <div class="agregar__form__nombre">
+                        <label for="agregar__nombre" class="agregar__form__nombre-label agrear_input__label">Nombre del
+                            producto</label>
+                        <input type="text" class="agregar__form__nombre-input agregar__input input" id="agregar__nombre"
+                            maxlength="20" required data-input="nombre_agregar_producto">
+                        <span class="mensaje__error"></span>
+                    </div>
+                    <div class="agregar__form__precio">
+                        <label for="agregar__precio" class="agregar__form__precio-label agrear_input__label">Precio del
+                            producto</label>
+                        <input type="number" class="agregar__form__precio-input agregar__input input"
+                            id="agregar__precio" pattern="^\d+[,]\d{2}$" required data-input="precio_agregar_producto">
+                        <span class="mensaje__error"></span>
+                    </div>
+                    <div class="agregar__form__descripcion">
+                        <label for="agregar__descripcion"
+                            class="agregar__form__descripcion-label agrear_input__label">Descripción</label>
+                        <textarea class="agregar__descripcion agregar__input input" id="agregar__descripcion"
+                            maxlength="150" required data-input="descripcion_agregar_producto"></textarea>
+                        <span class="mensaje__error"></span>
+                    </div>
+                    <div class="agregar__form__enviar">
+                        <button class="agregar__enviar">
+                            Modificar
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <secction class="footer__empresa">
+            <div class="footer__seccion">
+                <img class="footer__empresa-logo" src="./img/Logo.png" alt="Logo Alura Geek">
+                <div class="footer__empresa__links">
+                    <a href="#">Quienes somos</a>
+                    <a href="#">Política de privacidad</a>
+                    <a href="#">Programa de fidelidad</a>
+                    <a href="#">Nuestra tienda</a>
+                    <a href="#">Quiero ser franquiciado</a>
+                    <a href="#">Anuncie aquí</a>
+                </div>
+            </div>
+            <div class="footer__contacto">
+                <h3 class="footer__contacto-titulo">Hable con nosotros</h3>
+                <form class="footer__form">
+                    <div class="form__nombre">
+                        <label class="form__nombre-label" for="nombre">Nombre</label>
+                        <input class="form__nombre-input input__padron input" type="text" id="nombre" required
+                            maxlength="40" data-input="nombre_footer">
+                        <span class="mensaje__error"></span>
+                    </div>
+                    <div class="form__mensaje">
+                        <textarea class="input__padron input" placeholder="Escribe tu mensaje" required maxlength="120"
+                            data-input="mensaje_footer"></textarea>
+                        <span class="mensaje__error"></span>
+                    </div>
+                    <button class="form__enviar">Enviar Mensaje</button>
+                </form>
+            </div>
+        </secction>
+        <secction class="footer__desarrollador">
+            <h3 class="footer__desarrollador-texto">Desarrollado por Julian Zocco</h3>
+            <h3 class="footer__desarrollador-año">2022</h3>
+        </secction>
+    </footer>
+    <script src="./js/header-animaciones.js"></script>
+    <script type="module" src="./js/controllers/editar-producto-controller.js"></script>
+    <script type="module" src="./js/controllers/buscar-barra-constroller.js"></script>
+    <script type="module" src="./js/validaciones/valida-input.js"></script>
+    <script type="module" src="./js/login/control-usuario-online.js"></script>
+</body>
+</html>

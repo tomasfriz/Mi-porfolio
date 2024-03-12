@@ -1,0 +1,16 @@
+Alura Store: https://tomasfriz.github.io/Alura-Store/
+Apeperia: https://tomasfriz.github.io/Apeperia/
+Barbería Alura: https://tomasfriz.github.io/Barberia-Alura/
+Click Life: https://tomasfriz.github.io/Click-Life/
+Conviertete en Stormtrooper: https://tomasfriz.github.io/Conviertete-en-Stormtrooper/
+Alura Geek: https://tomasfriz.github.io/Desafio-Oracle-ONE---Front-End---E-commerce/
+Encriptador y Desencriptador: https://tomasfriz.github.io/Challenge-Oracle-ONE---Logica-de-Programacion---Semana-1-y-2/
+Fruta & Fruto: https://tomasfriz.github.io/Fruta-Fruto/
+Obelisco: https://tomasfriz.github.io/Obelisco/
+Mini Alura: https://tomasfriz.github.io/Mini-Alura/
+Portfolio 1: https://tomasfriz.github.io/TP-de-Codo-a-Codo/
+Portfolio 2: https://tomasfriz.github.io/Portfolio-argentina-programa/
+Portfolio 3: https://tomasfriz.github.io/Challenge-Oracle-ONE---Front-End---Portfolio/
+Turismo Argentina: https://tomasfriz.github.io/Turismo-Argentina/
+Veterinaria Cuki: https://tomasfriz.github.io/Veterinaria-Cuki/
+Ahorcado: https://tomasfriz.github.io/Challenge-Oracle-ONE---Logica-de-Programacion---Semana-3-y-4/

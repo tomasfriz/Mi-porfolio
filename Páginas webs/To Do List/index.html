@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
+    <link rel="shortcut icon" href="./images/lista.png" type="image/x-icon">
+    <script src="./javascript/app.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1><i class="fa-solid fa-list-check"></i> To Do List</h1>
+    </header>
+    <main id="app">
+
+        <div class="card centrado">
+            <label>Agregar / Editar Tarea</label>
+            <input type="text" v-model="tarea" placeholder="Escriba la tarea a editar/agregar">
+            <button v-on:click="addAndEditTarea" type="button">Agregar / Editar</button>
+        </div>
+
+        <div class="card centrado">
+            <label>Buscar Tarea</label>
+            <input type="text" v-model="buscar" placeholder="Escriba la tarea a buscar" />
+            <div v-for="(tareas, index) in filtro1" v-bind:key="index">
+                <ul>
+                    <li class="items">{{ tareas.name }}</li>
+                </ul>
+            </div>
+            <div v-for="(tareas, index) in filtro2" v-bind:key="index">
+                <ul>
+                    <li class="items">{{ tareas.name }}</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2><i class="fa-regular fa-calendar"></i> Tareas Pendientes</h2>
+            <h3>Cantidad <span v-text="tarea_pendientes"></span> </h3>
+            <ul>
+                <li v-for="(tareas, index) in tareas_por_hacer" v-bind:key="index">
+                    <strong v-text="tareas.name"></strong>
+                    <i v-on:click="okTarea(index, tareas)" class="btn-update fa-solid fa-circle-check"
+                        title="Cambia el estado de la tarea"></i>
+                    <i v-on:click="editTarea(index)" class="btn-edit fa-solid fa-pen" title="Edita la tarea"></i>
+                    <i v-on:click="deleteTareaPendiente(index)" class="btn-delete fa-solid fa-trash"
+                        title="Elimina la tarea"></i>
+                </li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2><i class="fa-regular fa-calendar-check"></i> Tareas Terminadas</h2>
+            <h3>Cantidad <span v-text="tarea_hechas"></span></h3>
+            <ul>
+
+                <li v-for="(tareas, index) in tareas_hechas" v-bind:key="index">
+                    <strong v-text="tareas.name"></strong>
+
+                    <i v-on:click="resetTarea(index, tareas)" class="btn-detalle fa-solid fa-clock-rotate-left"
+                        title="Cambia el estado de la tarea"></i>
+                    <i v-on:click="deleteTareaHecha(index)" class="btn-delete fa-solid fa-trash"
+                        title="Elimina la tarea"></i>
+                </li>
+
+            </ul>
+        </div>
+    </main>
+    <footer>
+        <p>Parcial 1 de Aplicaciones para Dispositivos Móviles | Tomás Agustin Friz</p>
+    </footer>
+</body>
+
+</html>

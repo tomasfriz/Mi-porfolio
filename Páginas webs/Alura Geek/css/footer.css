@@ -1,0 +1,225 @@
+.footer {
+    width: 100%;
+    box-sizing: border-box;
+    background: var(--fondo-verde-claro);
+}
+
+.footer__empresa {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    padding: 1rem
+}
+
+.footer__seccion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.footer__empresa-logo {
+    width: 50%;
+    max-width: 200px;
+}
+
+.footer__empresa__links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.footer__empresa__links a {
+    padding: .3rem 0;
+    color: var(--gris-texto);
+}
+
+.footer__contacto {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: .7rem;
+
+}
+
+.footer__contacto-titulo {
+    font-size: 1.1em;
+    font-weight: 700;
+    color: var(--gris-texto);
+}
+
+.footer__form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+
+.form__nombre {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: .5rem 0;
+}
+
+.form__nombre-label {
+    position: absolute;
+    font-size: 1em;
+    top: .8rem;
+    left: .8rem;
+    color: var(--gris-texto);
+}
+
+
+.input__padron {
+    border: none;
+    border-bottom: 1px solid var(--texto-input-gris);
+}
+
+
+
+.form__nombre-input {
+    height: 50px;
+    padding: 1rem .5rem .2rem .8rem;
+    font-size: 1.2em;
+}
+
+.form__mensaje {
+    padding: .5rem 0;
+}
+
+.form__mensaje textarea {
+    box-sizing: border-box;
+    width: 100%;
+    height: 100px;
+    font-family: 'Raleway', sans-serif;
+    padding: .2rem .8rem;
+}
+
+
+.form__enviar {
+    box-sizing: border-box;
+    border: 1px solid var(--azul);
+    background: var(--azul);
+    width: 30%;
+    max-width: 100px;
+    padding: .5rem 0;
+    text-align: center;
+    color: var(--texto-blanco);
+    font-size: .7em;
+}
+
+.form__enviar:hover {
+    background: var(--texto-blanco);
+    color: var(--azul);
+    transition: 500ms;
+}
+
+.footer__desarrollador {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 2rem 0;
+    background: var(--texto-blanco);
+}
+
+.footer__desarrollador h3 {
+    font-size: 1em;
+    font-weight: 500;
+}
+
+
+@media screen and (min-width: 768px) {
+
+    .footer__empresa {
+        flex-direction: row;
+        align-items: center;
+        align-items: flex-start;
+        padding: 1rem 2rem;
+        justify-content: space-between;
+    }
+
+    .footer__seccion {
+        align-items: flex-start;
+        width: 40%;
+        height: 100%;
+    }
+
+    .footer__empresa__links {
+        align-items: flex-start;
+    }
+
+    .footer__empresa__links a {
+        padding: .6rem 0;
+    }
+
+    .footer__contacto {
+        width: 60%;
+        max-width: 550px;
+        padding-top: 0;
+
+    }
+
+    .form__enviar {
+        width: 30%;
+        max-width: 150px;
+        height: 50px;
+        font-size: 1em;
+    }
+
+}
+
+@media screen and (min-width: 1440px) {
+
+    .footer__empresa {
+        padding: 2rem 8rem;
+        justify-content: space-between;
+    }
+
+    .footer__seccion {
+        flex-direction: row;
+        width: 50%;
+    }
+
+    .footer__empresa__links {
+        width: 40%;
+        margin-left: 5rem;
+    }
+
+    .footer__empresa__links a {
+        font-size: 1.2em;
+        font-weight: 500;
+    }
+
+    .footer__contacto {
+        width: 50%;
+        max-width: none;
+    }
+
+    .form__nombre-label {
+        font-size: 1.2rem;
+        left: 1rem;
+        top: 1.2rem;
+
+    }
+
+    .form__nombre-input {
+        height: 65px;
+        padding-top: 1.5rem;
+        padding-left: 1.2rem;
+        font-size: 1.2em;
+    }
+
+    .form__mensaje textarea {
+        height: 90px;
+        padding-left: 1rem;
+        padding-top: 1.2rem;
+        font-size: 1.2rem;
+    }
+
+
+}

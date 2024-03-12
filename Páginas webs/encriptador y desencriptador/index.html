@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Encriptador y Desencriptador de texto!</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <h1 class="titulo">Código Secreto</h1>
+
+  <main class="main">
+    <section class="form box">
+      <form action="" id= "form-texto">
+        <label for="input-texto"> <h3>Solo letras minúsculas y sin acento</h3></label>
+        <input class="text-input" type="text" onkeyup="validarTexto(this)" name="texto" id="mi-texto" placeholder="Ingrese el texto aqui">
+        <span id="texto-encriptar"></span>
+        <input class="btn" type="submit" value="Encriptar!" id="btn-encriptar">
+        <input class="btn" type="submit" value="Desencriptar!" id="btn-desencriptar">
+      </form>
+    </section>
+  
+    <section class="msg box">
+      <h3 id="">Mensaje encriptado:</h3>
+      <input class="text-input" type="text" id="msg"></input>
+      <input class="btn" type="submit" value="Copiar" id="btn-copy">
+      <input class="btn" type="submit" value="Limpiar" id="btn-clean">
+      <span class="copia" id="texto-copiado"></span>
+    </section>
+  </main>
+  <div class="footer">
+    <p class="footer-text-left">
+        <a class="menu"> Creado por: Tomás Agustín Friz </a>
+    </p>
+  </div>
+  <script src="js/script.js"></script>
+</body>
+</html>

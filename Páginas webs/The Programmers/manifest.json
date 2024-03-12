@@ -1,0 +1,19 @@
+{
+    "author": "Friz Tomás Agustín",
+    "description": "Final PWA - Da Vinci",
+    "name": "The Programmers",
+    "dir": "ltr",
+    "orientation": "any",
+    "scope": "./",
+    "start_url": "./",
+    "theme_color": "#0073ff",
+    "background_color": "#e2e2e2",
+    "display": "standalone",
+    "icons": [
+        {
+            "sizes": "144x144",
+            "type": "image/webp",
+            "src": "images/144x144.webp"
+        }
+    ]
+}

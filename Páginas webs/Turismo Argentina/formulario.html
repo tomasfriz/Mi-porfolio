@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/icono">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/tablet.css" media="screen and (max-width:920px)">
+    <link rel="stylesheet" href="css/mobile.css" media="screen and (max-width:480px)">
+    <title>Tours</title>
+</head>
+
+<body>
+    <header>
+        <h1 class="animate__heartBeat">Turismo Argentina</h1>
+        <nav>
+            <a class="navegacion" href="index.html">Inicio</a>
+            <a class="navegacion" href="itinerario.html">Atractivos</a>
+            <a class="navegacion" href="informacion.html">Eventos</a>
+            <a class="navegacion" href="restaurantes.html">Restaurantes</a>
+            <a class="navegacion" href="bares.html">Bares</a>
+            <a class="navegacion" href="formulario.html">Tours</a>
+        </nav>
+    </header>
+    <main>
+        <div>
+            <h2>Tours</h2>
+            <p><strong>Si te interesa un tour personalizado por la ciudad o cualquier otra cosa contactanos con
+                    nosotros</strong></p>
+        </div>
+        <div>
+            <form action="gracias.html" name="formulario" enctype="multipart/form-data">
+                <div>
+                    <label for="firstname">Nombre: </label>
+                    <input type="text" name="firstname" id="firstname" maxlength="20"
+                        placeholder="Ingrese su nombre aqui..." required>
+                </div>
+                <div>
+                    <label for="lastname">Apellido: </label>
+                    <input type="text" name="lastname" id="lastname" maxlength="20"
+                        placeholder="Ingrese su apellido aqui..." required>
+                </div>
+                <div>
+                    <label for="email">Correo:</label>
+                    <input type="email" name="email" id="email" maxlength="50" placeholder="Ingrese su mail aqui..."
+                        required>
+                </div>
+                <div>
+                    <label for="phone">Telefono: </label>
+                    <input type="tel" name="phone" id="phone" maxlength="10" placeholder="Ingrese su telefono aqui..."
+                        required>
+                </div>
+                <fieldset>
+                    <legend><span>Eliga el motivo de la solicitud</span></legend>
+                    <div>
+                        <input type="checkbox" id="opcion1" name="opcion1" value="solicitar_tour_personalizado">
+                        <label for="opcion1">Solicitar tour personalizado</label>
+                        <p>
+                            Adjuntanos en un archivo RAR o ZIP la informacion para tu tour personalizado
+                        </p>
+                        <input type="file" name="archivo" accept=".rar,.zip"/>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="opcion2" name="opcion2" value="solicitar_tour">
+                        <label for="opcion2">Solicitar tour estandar</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="opcion3" name="opcion3" value="consultar_visitas">
+                        <label for="opcion3">Consultar visitas, paseos, etc</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="opcion4" name="opcion4" value="solicitar_informacion_turistica">
+                        <label for="opcion4">Solicitar informacion turistica</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="opcion5" name="opcion5" value="otro" checked>
+                        <label for="opcion5">Otro</label>
+                    </div>
+                </fieldset>
+                <div>
+                    <input type="submit" value="Enviar">
+                </div>
+                <div>
+                    <input type="reset" value="Borrar">
+                </div>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <div>
+            <a class="redsoc" href="https://www.facebook.com/Travel-Buenos-Aires-125624064121107" target="_blank"> <img
+                    src="images/facebook.png" alt="icono de facebook"> </a>
+            <a class="redsoc" href="https://twitter.com/turismobaok" target="_blank"> <img src="images/twitter.png"
+                    alt="icono de twitter"> </a>
+            <a class="redsoc" href="https://www.instagram.com/turismobuenosairesok/" target="_blank"> <img
+                    src="images/instagram.png" alt="icono de instagram"> </a>
+
+            <p>Derechos Reservados @2022 - Tomás Agustín Friz</p>
+        </div>
+    </footer>
+</body>
+
+</html>

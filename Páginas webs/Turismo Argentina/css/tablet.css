@@ -1,0 +1,76 @@
+/* Configuracion de Tablet */
+
+* {
+    font-size: x-large;
+}
+
+body {
+    display: inline-block;
+}
+
+header {
+    display: inline-block;
+    padding: 15px 0px;
+}
+
+.navegacion {
+    margin: 20px;
+    padding: 4px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin: 20px 0px;
+}
+
+h3 {
+    margin: 20px 0px;
+}
+
+main {
+    margin: 0px;
+}
+
+section {
+    display: inline-block;
+}
+
+p {
+    display: inline-block;
+    margin: 20px 0px;
+}
+
+div {
+    display: inline-block;
+    margin: 20px 0px;
+}
+
+img {
+    display: inline-block;
+    width: 80%;
+}
+
+iframe {
+    width: 90%;
+}
+
+.lista {
+    margin-left: 30%;
+}
+
+footer div a img {
+    width: min-content;
+}
+
+footer {
+    display: inline-block;
+    padding: 15px 0px;
+}
+
+form {
+    margin: 0%;
+    padding: 0%;
+}

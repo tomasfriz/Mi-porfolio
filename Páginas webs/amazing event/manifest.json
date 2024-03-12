@@ -1,0 +1,19 @@
+{
+    "author": "Friz Tomás Agustín",
+    "description": "Parcial 1 PWA - Da Vinci",
+    "name": "Amazing Events",
+    "dir": "ltr",
+    "orientation": "any",
+    "scope": "./",
+    "start_url": "./",
+    "theme_color": "rgb(199, 21, 133)",
+    "background_color": "rgb(238, 130, 238)",
+    "display": "standalone",
+    "icons": [
+        {
+            "sizes": "144x144",
+            "type": "image/png",
+            "src": "assets/images/144x144.png"
+        }
+    ]
+}

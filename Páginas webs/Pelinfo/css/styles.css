@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.borde {
+    border: solid 0.2rem #424242;
+    border-radius: 10px;
+    margin-right: 5rem;
+    padding: 0.5rem;
+    background-color: white;
+}
+
+.fav {
+    color: red !important;
+}
+
+.estilo {
+    margin-top: 1.5rem !important;
+    width: 15% !important;
+}

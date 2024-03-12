@@ -1,0 +1,13 @@
+.login__error {
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.login__error-msj {
+    display: none;
+}
+
+.input__invalido .login__error-msj {
+    display: inline;
+    color: var(--color-error);
+}

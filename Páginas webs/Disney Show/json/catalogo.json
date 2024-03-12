@@ -1,0 +1,167 @@
+[
+  {
+    "id": 1,
+    "categoria": "pelicula",
+    "titulo": "Strange World",
+    "anio": 2022,
+    "genero": "Animación, Acción, Aventura",
+    "estudio": "Walt Disney Animation Studios",
+    "descripcion": "La familia Clades es reconocida por el patriarca, un gran explorador. Pero luego de su desaparición, su hijo se niega a seguir sus pasos. Esto, hasta que le ruegan su colaboración en una expedición peligrosa que traerá de vuelta a más de un fantasma del pasado.",
+    "portada": "strange-world.jpg",
+    "precio": 2000
+  },
+  {
+    "id": 2,
+    "categoria": "pelicula",
+    "titulo": "Lightyear",
+    "anio": 2022,
+    "genero": "Animación, Acción, Aventura",
+    "estudio": "Pixar Animation Studios",
+    "descripcion": "El viajero espacial Buzz Lightyear se embarca en una aventura con sus compañeros. Esta será la misión más difícil que ha enfrentado, ya que tendrá que luchar contra el malvado Zurg y su ejército de robots.",
+    "portada": "lightyear.jpg",
+    "precio": 1800
+  },
+  {
+    "id": 3,
+    "categoria": "pelicula",
+    "titulo": "Chip 'n Dale: Rescue Rangers",
+    "anio": 2022,
+    "genero": "Animación, Aventura, Comedia",
+    "estudio": "Mandeville Films, Walt Disney Pictures",
+    "descripcion": "Chip y Dale la han pasado bastante mal desde que cancelaron su programa de televisión. Ambos viven vidas separadas y muy diferentes. Pero cuando descubren la misteriosa desaparición de uno de sus compañeros de la serie original, ¿es momento de una última aventura épica?",
+    "portada": "chip-n-dale-rescue-rangers.jpg",
+    "precio": 1700
+  },
+  {
+    "id": 4,
+    "categoria": "pelicula",
+    "titulo": "Turning Red",
+    "anio": 2022,
+    "genero": "Animación, Comedia, Familiar",
+    "estudio": "Pixar Animation Studios, Walt Disney Pictures",
+    "descripcion": "Historia totalmente inspirada por la pubertad y la etapa universal de ser incómodo, torpe y obsesionado con bandas de chicos. Seguimos a la adorable Mei Lin, que al llegar a la pubertad, se transforma en un panda rojo gigante. Y volverá a transformarse cada vez que tenga una emoción intensa. ¡Pero si eso es todo el tiempo, es una adolescente!",
+    "portada": "turning-red.jpg",
+    "precio": 1900
+  },
+  {
+    "id": 5,
+    "categoria": "pelicula",
+    "titulo": "Encanto",
+    "anio": 2022,
+    "genero": "Animación, Comedia, Familiar, Musical",
+    "estudio": "Walt Disney Animation Studios",
+    "descripcion": "Mirabel Madrigal adora a su familia, a pesar de no compartir algo importante con ellos: es la única que no tiene poderes mágicos. Pero su casa se está desmoronando, nadie más se da cuenta, y la magia de su hermana mayor parece desvanecerse. ¿Mirabel podrá probar su valía y dejar sus diferencias con su familia atrás?",
+    "portada": "encanto.jpg",
+    "precio": 900
+  },
+  {
+    "id": 6,
+    "categoria": "pelicula",
+    "titulo": "Raya and The Last Dragon",
+    "anio": 2021,
+    "genero": "Animación, Acción, Aventura",
+    "estudio": "Walt Disney Animation Studios",
+    "descripcion": "Hace mucho tiempo, los dragones se sacrificaron por el bien de la humanidad, para protegerlos de los Druun. Pero ahora que la amenaza ha vuelto, una joven guerrera llamada Raya tendrá que buscar al último dragón para salvar a su familia y a su pueblo.",
+    "portada": "raya-and-the-last-dragon.jpg",
+    "precio": 1500
+  },
+  {
+    "id": 7,
+    "categoria": "pelicula",
+    "titulo": "Unidos",
+    "anio": 2020,
+    "genero": "Animación, Aventura, Comedia",
+    "estudio": "Walt Disney Pictures,Pixar Animation Studios",
+    "descripcion": "También conocida como Onward. Unos hermanos descubren que la magia es real cuando su difunto padre les deja una misión para cumplir antes de que finalice el día, la cual les permitirá pasar tiempo con él.",
+    "portada": "Unidos.jpg",
+    "precio": 2000
+  },
+  {
+    "id": 8,
+    "categoria": "pelicula",
+    "titulo": "Zootopia",
+    "anio": 2016,
+    "genero": "Animación, Aventura, Comedia",
+    "estudio": "Walt Disney Animation Studios",
+    "descripcion": "En un universo de animales antropomórficos, una conejita entusiasta recién convertida en oficial de policía, tendrá que trabajar con un zorro estafador para desenmascarar una conspiración.",
+    "portada": "Zootopia.jpg",
+    "precio": 1800
+  },
+  {
+    "id": 9,
+    "categoria": "serie",
+    "titulo": "Star Wars: The Bad Batch",
+    "anio": 2021,
+    "genero": "Ciencia ficción",
+    "estudio": "Lucasfilm Animation",
+    "descripcion": "La saga de Star Wars continúa con esta serie ambientada después de los eventos superpuestos del Episode III — Revenge of the Sith y la serie animada Star Wars: The Clone Wars, pero antes de los eventos del Episode IV – Una nueva esperanza. Sigue a un grupo de soldados clon renegados que se encuentran huyendo del Imperio Galáctico después de la Orden 66 y el eliminación de la Orden Jedi. La primera temporada de la serie dejó a los clones excepcionalmente dotados en aguas profundas (literalmente) mientras rescataban a uno de los suyos de las instalaciones donde fueron creados, aún sin saber cuál sería su lugar en esta nueva galaxia. La temporada 2 ya está disponible.",
+    "portada": "bad-batch.webp",
+    "precio": 1800
+  },
+  {
+    "id": 10,
+    "categoria": "serie",
+    "titulo": "Baymax!",
+    "anio": 2022,
+    "genero": "superhéroe, ciencia ficción, Comedia",
+    "estudio": "Estudios de animación de Walt Disney",
+    "descripcion": "Big Hero 6 fue un gran éxito en 2014 y le dio un giro creativo al género de los superhéroes con la fórmula de animación probada y verdadera de Disney. Y la adorable enfermera robot regresa en Baymax!, una serie de televisión animada derivada compuesta de historias cortas. Teniendo lugar dentro de la misma continuidad que la película y la otra serie derivada de TV, Big Hero 6: The Series, Baymax! sigue al entrañable robot mientras recorre San Fransokyo ayudando a la gente de la ciudad. Es una forma nueva, divertida y encantadora de expandir el vibrante mundo establecido por la película.",
+    "portada": "baymax.webp",
+    "precio": 3000
+  },
+  {
+    "id": 11,
+    "categoria": "serie",
+    "titulo": "The Owl House",
+    "anio": 2020,
+    "genero": "Comedia, Comedia de terror, Fantasía",
+    "estudio": "Disney Television Animation",
+    "descripcion": "La segunda temporada de The Owl House ha llegado a Disney+ y es un claro alejamiento de casi todo lo que Disney ha hecho antes. Sarah-Nicole Robles interpreta a Luz Noceda, una joven que se topa con una bruja llamada Eda Clawthorne (Wendie Malick) y su compañero demonio, King (Alex Hirsch). Al enterarse de que la magia es real, Luz está decidida a convertirse en bruja bajo la tutela de Eda. Luz también tiene el honor de ser la primera protagonista LGBT en la historia de Disney, ya que tiene una relación romántica con una chica llamada Amity Blight (Mae Whitman). Pero no todo es amor y magia en esta serie, ya que Luz y sus nuevos amigos se enfrentan a un mal que también podría amenazar al mundo.",
+    "portada": "the-owl-house.webp",
+    "precio": 2800
+  },
+  {
+    "id": 12,
+    "categoria": "serie",
+    "titulo": "Star Wars Rebels",
+    "anio": 2014,
+    "genero": "Ciencia ficción fantástica, Acción, Comedia",
+    "estudio": "Lucasfilm Animation",
+    "descripcion": "Ambientada después de los eventos de Star Wars: Episodio III – Revenge of the Sith y la animada Star Wars: The Clone Wars, y cinco años antes de Star Wars: Episodio IV – Una nueva esperanza, Star Wars Rebels sigue a un pequeño grupo de rebeldes liderados por Kanan Jarrus, un poderoso Jedi que sobrevivió a la Orden 66. En el transcurso de las cuatro temporadas de la serie, las aventuras del variopinto equipo nos sirve de introducción a los primeros años de lo que después sería la rebelión organizada contra el Imperio Galáctico. Las películas de Star Wars, The Clone Wars y The Mandalorian juegan papeles clave en esta saga. Ganadora de un premio Primetime Emmy, Rebels generó una larga lista de proyectos derivados y vinculados con algunos de los héroes y villanos más populares del universo Star Wars.",
+    "portada": "star-wars-rebels.webp",
+    "precio": 1500
+  },
+  {
+    "id": 13,
+    "categoria": "serie",
+    "titulo": "Monsters at Work",
+    "anio": 2021,
+    "genero": "Animación, Comedia, Fantasía, Comedia de situación",
+    "estudio": "Disney Television Animation",
+    "descripcion": "Un derivado de la franquicia Monsters, Inc. y una secuela directa de la película, esta serie animada comienza después de que la ciudad de Monstropolis haya realizado cambios para alimentarse a sí misma a través del sonido de la risa. La historia se centra en Tylor Tuskmon, un recién graduado de Monsters University que sueña con trabajar algún día con sus ídolos, Mike Wazowski y James P. «Sulley» Sullivan. Billy Crystal y John Goodman repiten sus papeles de voz como Mike y Sulley, respectivamente, mientras que Ben Feldman es Tylor, Mindy Kaling es Val Little y Henry Winkler se oye como Fritz. Ya puedes ver la segunda temporada.",
+    "portada": "monster.webp",
+    "precio": 1800
+  },
+  {
+    "id": 14,
+    "categoria": "serie",
+    "titulo": "Los Simpson",
+    "anio": 1989,
+    "genero": "Animación, Comedia de situación, Parodia, Sátira",
+    "estudio": "20th Television",
+    "descripcion": "¿Qué queda por decir de Los Simpson? Bart, Homero, Marge, Lisa y Maggie no son solo personajes de dibujos animados. Son iconos culturales, sin mencionar las estrellas de la comedia de situación más antigua de la historia de Estados Unidos. Claro, a estas alturas, probablemente hay más episodios de Los Simpsons malos que buenos, pero eso no importa. En Disney+ podrás volver a ver los días de gloria de las temporadas 1 a 10 cuando quieras. Confía en nosotros. Esta serie animada nunca envejecerá.",
+    "portada": "the-simpsons-1989-present.webp",
+    "precio": 2000
+  },
+  {
+    "id": 15,
+    "categoria": "serie",
+    "titulo": "Star Wars: The Clone Wars",
+    "anio": 2008,
+    "genero": "Acción, animación, ciencia ficción",
+    "estudio": "Lucasfilm Animation",
+    "descripcion": "Aunque Star Wars: The Clone Wars podría haber empezado como la típica aventura de acción, rápidamente se transformó en algo mucho más complicado: un examen exhaustivo y matizado de los horrores de la guerra en el universo de Star Wars. A lo largo de seis temporadas, con la llegada de una séptima en Disney+ el próximo invierno, The Clone Wars profundizó y amplió la franquicia de Star Wars de maneras inesperadas. ¿Aún mejor? El final no es realmente el final: la historia continúa con Star Wars Rebels.",
+    "portada": "star-wars-clone-wars.webp",
+    "precio": 3000
+  }
+]

@@ -1,0 +1,415 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Viga', sans-serif;
+}
+
+body {
+    background-color: #6ED8CC;
+}
+
+/* encabezado y menu de navegacion */
+
+.navegador {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #BC64F7;
+    position: fixed;
+    width: 100%;
+    opacity: 90%;
+}
+
+.navegador a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.logo {
+    margin-left: 3em;
+    text-indent: -9999px;
+    background-image: url(../images/Logo.png);
+    background-repeat: no-repeat;
+    width: 7em;
+    height: 4.5em;
+}
+
+.lista {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+nav ul li a {
+    background-color: #AEEAE3;
+    text-decoration: none;
+    color: black;
+    border-radius: 10px;
+    font-size: 1.3em;
+    padding: 0.5em;
+}
+
+nav ul li a:hover {
+    color: white;
+    background-color: #6ED8CC;
+}
+
+#toggler,
+.navegador label {
+    display: none;
+}
+
+/* main */
+
+main h1 {
+    font-size: 5em;
+    font-family: 'Trade Winds', cursive;
+    text-align: center;
+    padding: 2%;
+    color: white;
+}
+
+h2 {
+    font-family: 'Trade Winds', cursive;
+    padding: 2%;
+    background-color: #BC64F7;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+h3 {
+    text-align: left;
+    padding: 2%;
+    font-size: 2em;
+}
+
+main p,
+main section ul li {
+    color: white;
+    font-size: 1.5em;
+    padding-top: 1em;
+}
+
+.centrar {
+    text-align: center;
+    padding: 2%;
+}
+
+.tamaño{
+    text-align: center;
+    padding: 2%;
+    font-size: xx-large;
+}
+
+/* pie de pagina */
+
+footer {
+    width: 100%;
+    text-align: center;
+    background-color: #BC64F7;
+    padding: 1%;
+}
+
+footer p {
+    margin: 2%;
+}
+
+footer div a {
+    display: flex;
+    width: 65px;
+    height: 65px;
+}
+
+.ico1 {
+    background: url(../images/facebook.png) no-repeat 0 0;
+    width: 65px;
+    height: 65px;
+    text-indent: -400px;
+    overflow: hidden;
+    font-size: 0;
+    display: inline-block;
+}
+
+
+.ico2 {
+    background: url(../images/instagram.png) no-repeat 0 0;
+    width: 65px;
+    height: 65px;
+    text-indent: -400px;
+    overflow: hidden;
+    font-size: 0;
+    display: inline-block;
+    margin-left: 2%;
+}
+
+.ico3 {
+    background: url(../images/twitter.png) no-repeat 0 0;
+    width: 65px;
+    height: 65px;
+    text-indent: -400px;
+    overflow: hidden;
+    font-size: 0;
+    display: inline-block;
+    margin-left: 2%;
+}
+
+/* Formulario */
+
+form {
+    width: 90%;
+    border-radius: 10px;
+    background-color: #AEEAE3;
+    padding: 5%;
+    margin: 0 auto;
+}
+
+input[type=text],
+input[type=tel],
+input[type=email] {
+    width: 80%;
+    color: black;
+    padding: 1vw;
+    margin: 1.5vw;
+    display: inline-block;
+    border: 1vw;
+    border-radius: 5px;
+}
+
+input[type=submit] {
+    background-color: darkgreen;
+    color: white;
+    font-size: 1em;
+    padding: 1em 5em;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+
+input[type=submit]:hover {
+    background-color: green;
+}
+
+@media screen and (max-width: 540px) {
+    /* encabezado y menu de navegacion */
+
+    .menu {
+        width: 100%;
+        max-height: 0;
+        overflow: hidden;
+    }
+
+    label {
+        font-size: 2em;
+        width: 15%;
+    }
+
+    label p {
+        text-indent: -9999px;
+        background-image: url(../images/menu.png);
+        background-size: cover;
+        width: 2.0em;
+        height: 2.0em;
+    }
+
+    .lista {
+        flex-direction: column;
+        align-items: center;
+        padding: 1em;
+    }
+
+    .navegador label {
+        display: inline-flex;
+        align-items: center;
+        cursor: pointer;
+    }
+
+    #toggler:checked~.menu {
+        max-height: 100%;
+    }
+
+    /* main */
+
+    #beneficios,
+    #mejores,
+    #venYdes,
+    #suscripcion {
+        margin-bottom: 3em;
+        text-indent: -9999px;
+    }
+
+    main figure picture source,
+    main figure picture img {
+        width: 100%;
+    }
+
+    main section ul {
+        margin-left: 5%;
+        padding: 2%;
+    }
+
+    main section figure {
+        text-align: center;
+    }
+
+    main section figure picture img,
+    main section figure picture source {
+        width: auto;
+        margin: 2%;
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    }
+
+    main section p {
+        padding: 1%;
+        font-size: 1.5em;
+        text-align: center;
+    }
+
+    main section iframe {
+        width: 100%;
+        height: 30em;
+        margin-top: 3%;
+    }
+}
+
+@media screen and (min-width: 541px) and (max-width: 1023px) {
+    /* encabezado y menu de navegacion */
+
+    .navegador {
+        padding: 0.3em;
+    }
+
+    .menu {
+        width: 100%;
+        max-height: 0;
+        overflow: hidden;
+    }
+
+    label {
+        font-size: 2em;
+        width: 10%;
+    }
+
+    label p {
+        text-indent: -9999px;
+        background-image: url(../images/menu.png);
+        background-size: cover;
+        width: 2.0em;
+        height: 2.0em;
+    }
+
+    .lista {
+        flex-direction: column;
+        align-items: center;
+        padding: 1em;
+    }
+
+    .navegador label {
+        display: inline-flex;
+        align-items: center;
+        cursor: pointer;
+    }
+
+    #toggler:checked~.menu {
+        max-height: 100%;
+    }
+
+    /* main */
+
+    #beneficios,
+    #mejores,
+    #venYdes,
+    #suscripcion {
+        margin-bottom: 3.5em;
+        text-indent: -9999px;
+    }
+
+    main figure picture source,
+    main figure picture img {
+        width: 100%;
+    }
+
+    main section ul {
+        margin-left: 5%;
+        padding: 2%;
+    }
+
+    main section figure {
+        text-align: center;
+    }
+
+    main section figure picture img,
+    main section figure picture source {
+        width: auto;
+        margin: 5%;
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    }
+
+    main section p {
+        text-align: center;
+        margin: 8%;
+        font-size: 1.5em;
+    }
+
+    main section iframe {
+        width: 90%;
+        height: 30em;
+        margin: 5%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    /* encabezado y menu de navegacion */
+
+    .navegador {
+        padding: 1em;
+    }
+
+    /* main */
+
+    #beneficios,
+    #mejores,
+    #venYdes,
+    #suscripcion {
+        margin-bottom: 4em;
+        text-indent: -9999px;
+    }
+
+    main figure picture source,
+    main figure picture img {
+        width: 100%;
+    }
+
+    main section ul {
+        margin-left: 5%;
+        padding: 2%;
+    }
+
+    section {
+        display: flex;
+    }
+
+    main section figure picture img,
+    main section figure picture source {
+        width: auto;
+        margin: 3% 3%;
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    }
+
+    main section p {
+        padding-left: 8%;
+        padding-top: 5%;
+        font-size: 1.5em;
+    }
+
+    main section iframe {
+        width: 90%;
+        height: 30em;
+        margin: 5%;
+    }
+}

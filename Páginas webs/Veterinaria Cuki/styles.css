@@ -1,0 +1,91 @@
+h1,
+h2,
+h3{
+	color: white;
+	text-align: center;
+	font-weight: bold;
+	font-size: 2.5em;
+	text-shadow: 5px 5px 5px darkorange;
+}
+
+header h1 {
+	font-size: 5em;
+}
+
+body {
+	overflow-x: hidden;
+	background: linear-gradient(100deg, green, greenyellow);
+}
+
+nav ul {
+	margin: 0;
+	padding-left: 500px;
+	list-style: none;
+	float: left;
+	border: 1px solid white;
+	width: 62.5%;
+}
+
+nav li {
+	float: left;
+	padding: 0;
+	margin: 0;
+}
+
+nav li a,
+nav li a:link {
+	color: white;
+	text-decoration: none;
+	padding: 1em 1em;
+	border-right: 1px solid white;
+	border-left: 1px solid white;
+	display: block;
+	font: bold 1em "Lucida Grande", Verdana, Geneva, Lucida, Arial, Helvetica, sans-serif;
+}
+
+section {
+	padding: 50px;
+}
+
+#nosotros {
+	margin-top: 50px;
+	font: 1em "Lucida Grande", Verdana, Geneva, Lucida, Arial, Helvetica, sans-serif;
+	text-align: justify;
+}
+
+#servicios {
+	margin-top: 50px;
+	font: 1em "Lucida Grande", Verdana, Geneva, Lucida, Arial, Helvetica, sans-serif;
+	text-align: justify;
+}
+
+#contacto {
+	margin-top: 50px;
+	font: bold 1.3em Helvetica;
+	text-align: center;
+}
+
+figure {
+	padding: 50px;
+	margin-left: 80px;
+}
+
+figure img {
+	padding: 1px;
+	background: white;
+	-webkit-transition: -webkit-transform 0.5s ease-in-out 0.1s;
+	box-shadow: black 5px 5px 5px;
+	margin-left: 80px;
+}
+
+figure img:hover {
+	-webkit-transform: scale(1.2);
+}
+
+figure figcaption {
+
+	padding: 50px;
+	margin-left: 100px;
+	font: bold 1.3em Helvetica;
+
+}

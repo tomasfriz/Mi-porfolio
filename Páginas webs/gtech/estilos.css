@@ -1,0 +1,741 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#front {
+  background-color: #333399;
+  padding: 0 !important;
+}
+
+#front > div > div > ul > li > a,
+#back > div > div > ul > li > a {
+  padding: 18px 25px;
+  margin: 11px 2px;
+}
+
+#back > div > div > ul > li > a {
+  border-radius: 50px;
+  color: white;
+  width: 200px;
+}
+
+#front > div > div > ul > li > a {
+  border-radius: 50px;
+  color: white;
+}
+
+#back > div > div > ul > li > a:hover {
+  background-color: white;
+  color: cadetblue;
+}
+
+#back > div > div > ul > li:nth-of-type(5) > a {
+  background-color: white;
+  border: white solid 1px;
+  color: cadetblue;
+  width: 120px;
+}
+
+#back > div > div > ul > li:nth-of-type(5) > a:hover {
+  background-color: cadetblue;
+  color: white;
+}
+
+#back > div > div > ul > li:last-of-type > a {
+  background-color: rgb(203, 72, 72);
+  border: rgb(203, 72, 72) solid 1px;
+  color: white;
+  width: 120px;
+}
+
+#back > div > div > ul > li:last-of-type > a:hover {
+  background-color: cadetblue;
+  color: rgb(203, 72, 72);
+}
+
+#front > div > div > ul > li:nth-of-type(7) > a {
+  background-color: white;
+  border: white solid 1px;
+  color: #333399;
+  width: 120px;
+}
+
+#front > div > div > ul > li:nth-of-type(7) > a:hover {
+  background-color: #333399;
+  color: white;
+}
+
+#front > div > div > ul > li:last-of-type > a {
+  background-color: rgb(203, 72, 72);
+  border: rgb(203, 72, 72) solid 1px;
+  color: white;
+  width: 120px;
+}
+
+#front > div > div > ul > li:last-of-type > a:hover {
+  background-color: #333399;
+  color: rgb(203, 72, 72);
+}
+
+#back {
+  background-color: cadetblue;
+}
+
+#front > div > div > ul > li > a:hover {
+  background-color: white;
+  color: #333399;
+}
+
+nav ul li {
+  padding: 0;
+}
+
+.banner {
+  height: 40vw;
+  background: url(recursos/imagenes/banner.jpg) no-repeat;
+  background-size: cover;
+  margin-bottom: 120px;
+  box-shadow: 0px 8px 15px -5px #3636367c;
+
+}
+
+.banner > h1 {
+  color: #333399;
+  margin-right: 10px;
+  font-size: 2.5vw;
+}
+
+section > h2 {
+  color: #333399;
+}
+
+h2 + p {
+  font-size: 1.2rem;
+}
+
+h2 + p > a {
+  text-decoration: none;
+  color: #333399;
+}
+
+footer {
+  height: 100px;
+  background-color: rgb(51, 50, 50);
+  margin-top: 100px;
+}
+
+footer p {
+  margin: 0;
+}
+
+a + ul > li {
+  list-style: none;
+  position: relative;
+  height: auto;
+  width: auto;
+  padding: 30px 30px;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 990px) {
+  #front > div,
+  #back > div {
+    padding: 0;
+  }
+
+  a + ul {
+    top: 246px !important;
+    position: static !important;
+    width: 100%;
+    box-shadow: none !important;
+  }
+
+  #back > div > div > ul > li a {
+    padding: 20px 0;
+    margin: 0;
+    width: 100%;
+  }
+
+  #front > div > div > ul > li a {
+    padding: 20px 0;
+    margin: 0;
+    width: 100%;
+  }
+
+  #back > div > div > ul > li:last-of-type,
+  #front > div > div > ul > li:last-of-type {
+    margin-bottom: 10px;
+    margin: auto;
+  }
+}
+
+nav li:nth-of-type(2) > a + ul {
+  overflow: hidden;
+  height: 0;
+  position: absolute;
+  background-color: white;
+  text-align: center;
+  -webkit-border-radius: 0 0 10px 10px;
+  border-radius: 20px;
+  top: 72px;
+  -webkit-transition: height 0.5s;
+  border: none;
+  box-shadow: 0px 8px 15px -5px #3636367c;
+  padding: 0;
+  transition: height 0.5s;
+}
+
+a + ul > li > a {
+  color: #333399;
+  padding: 30px;
+  width: 100%;
+}
+
+a + ul > li {
+  padding: 30px 0;
+}
+
+a + ul > li:hover {
+  background-color: #333399;
+}
+
+a + ul > li:hover > a {
+  color: white;
+}
+
+nav li:nth-of-type(2):hover > a + ul {
+  height: 168px;
+}
+
+/* login */
+
+.login_back > div > h1 {
+  color: cadetblue;
+}
+
+.login_back {
+  padding: 0;
+  margin: 100px 0;
+}
+
+.login_back > div > form > .btn {
+  background-color: cadetblue;
+  border: cadetblue solid 1px;
+  padding: 15px;
+  font-size: 1.2rem;
+  width: 180px;
+}  
+
+.login_back > div > form > .btn:hover {
+  background-color: white;
+  color: cadetblue;
+  
+} 
+
+.login_back > div > form > div > input {
+  padding: 10px;
+}
+
+.login_front > div > h1 {
+  color: #333399;
+}
+
+.login_front {
+  padding: 0;
+  margin: 100px 0;
+}
+
+.login_front > div > form > .btn {
+  background-color: #333399;
+  border: #333399 solid 1px;
+  padding: 15px;
+  font-size: 1.2rem;
+  width: 180px;
+}  
+
+.login_front > div > form > .btn:hover {
+  background-color: white;
+  color: #333399;
+  
+} 
+
+.login_front > div > form > div > input {
+  padding: 10px;
+}
+
+/* productos */
+
+.filtros {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px;
+  box-shadow: 0px 8px 15px -5px #3636367c;
+  border-radius: 5px;
+}
+
+.filtros > form {
+  width: 80%;
+}
+
+.filtros > form > .btn {
+  border: #333399 solid 1px;
+  background-color: #333399;
+  color: white;
+}
+
+.filtros > form > .btn:hover {
+  border: #333399 solid 1px;
+  background-color: white;
+  color: #333399;
+}
+
+.filtros > ul {
+  padding: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.filtros > ul > li {
+  display: inline-block;
+  list-style: none;
+  width: 80%;
+  margin-bottom: 5px;
+  background-color: #333399;
+  border-radius: 5px;
+  text-align: center;
+  border: #333399 solid 1px;
+}
+
+.filtros > ul > li > a + ul > li {
+  list-style: none;
+  padding: 0;
+}
+
+.filtros ul li a {
+  display: inline-block;
+  text-align: center;
+  padding: 30px 0;
+  width: 100%;
+}
+
+.filtros > ul > li:last-of-type > a + ul {
+  overflow: hidden;
+  height: 0;
+  background-color: white;
+  text-align: center;
+  -webkit-border-radius: 0 0 10px 10px;
+  border-radius: 5px;
+  -webkit-transition: height 0.5s;
+  border: none;
+  padding: 0;
+  transition: height 0.5s ease-in-out;
+}
+
+.filtros > ul > li:first-of-type > a + ul {
+  overflow: hidden;
+  height: 0;
+  background-color: white;
+  text-align: center;
+  -webkit-border-radius: 0 0 10px 10px;
+  border-radius: 5px;
+  -webkit-transition: height 0.5s;
+  border: none;
+  padding: 0;
+  transition: height 0.5s ease-in-out;
+}
+
+.filtros > ul > li:nth-of-type(2) > a + ul {
+  overflow: hidden;
+  height: 0;
+  background-color: white;
+  text-align: center;
+  -webkit-border-radius: 0 0 10px 10px;
+  border-radius: 5px;
+  -webkit-transition: height 0.5s;
+  border: none;
+  padding: 0;
+  transition: height 0.5s ease-in-out;
+}
+
+.filtros > ul > li:nth-of-type(2):hover > a + ul {
+  height: 168px;
+}
+
+.filtros > ul > li:first-of-type:hover > a + ul {
+  height: 336px;
+}
+
+.filtros > ul > li > a {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 20px 0;
+  color: white;
+}
+
+.filtros > ul > li:last-of-type:hover > a + ul {
+  height: max-content;
+}
+
+.filtros > ul > li:hover {
+  background-color: white;
+}
+.filtros > ul > li:hover > a {
+ color: #333399;
+}
+
+h1 {
+  color: #333399;
+  margin-right: 10px;
+  font-size: 2rem;
+}
+
+#productos {
+  gap: 1.5vw;
+}
+
+#productos > p {
+  display: inline-block;
+  margin: 0;
+  padding: 20px;
+}
+
+#productos > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0px 8px 15px -5px #3636367c;
+  padding: 0;
+  height: 450px;
+}
+
+#productos > div > img {
+  margin-top: 20px;
+  height: 200px;
+}
+
+#productos > div > div > h2 {
+  font-size: 1.2rem;
+  margin: auto 15px;
+}
+
+#productos > div > div > h2 + p {
+  font-size: 1rem;
+}
+
+#productos > div > div > p {
+  margin: auto 15px;
+}
+
+#productos > div > div > a {
+  text-decoration: none;
+  color: white;
+  background-color: #333399;
+  width: 100%;
+  padding: 15px 0;
+}
+
+#productos > div > div > a:hover {
+  color: #333399;
+  background-color: white;
+}
+
+#producto {
+  margin: 100px 20px;
+  border-radius: 5px;
+  box-shadow: 0px 8px 15px -5px #3636367c;
+}
+
+#producto > div {
+  width: 100%;
+  padding: 40px;
+  box-shadow: 0px 8px 15px -5px #3636367c;
+}
+
+#producto > div > h1 + span {
+  color: #333399;
+  opacity: 0.8;
+}
+
+#producto > figure {
+  height: 30vw;
+}
+
+#producto > figure > img {
+  max-height: 100%;
+}
+
+#producto > div > a {
+  text-decoration: none;
+  color: white;
+  background-color: #333399;
+  width: 100%;
+  padding: 15px 0;
+  border: #333399 solid 1px;
+  border-radius: 5px;
+}
+
+#producto > div > form > .btn {
+  text-decoration: none;
+  color: white;
+  background-color: #333399;
+  width: 100%;
+  padding: 15px 0;
+  border: #333399 solid 1px;
+  border-radius: 5px;
+}
+
+#producto > div > a:hover {
+  color: #333399;
+  background-color: white;
+}
+
+#productos > #no_encontrado {
+  box-shadow: none;
+}
+
+/* ¿Quien soy? */
+
+#misdatos {
+  margin: 50px 0;
+}
+
+#misdatos > figure > img {
+  border-radius: 5px;
+}
+
+#misdatos > figure {
+  margin: 0;
+}
+
+#form > form {
+  gap: 10px;
+}
+
+#form > form > textarea {
+  resize: none;
+  border: #333399 solid 1px;
+  border-radius: 5px;
+}
+
+#form > form > input {
+  padding: 10px 5px;
+  border: #333399 solid 1px;
+  border-radius: 5px;
+}
+
+#form > form > button {
+  font-size: 1.1rem;
+  color: white;
+  background-color: #333399;
+  border: #333399 solid 1px;
+  border-radius: 5px;
+  padding: 14px 150px;
+}
+
+#form > form > button:hover {
+  color: #333399;
+  background-color: white;
+}
+
+/* Carrito */
+
+#carrito + .container > form {
+  margin-bottom: 10vw;
+}
+
+#carrito + .container > form > div:last-of-type > a:last-of-type {
+  background-color: #6dcb77;
+  border: #6dcb77 solid 1px;
+  color: white;
+}
+#carrito + .container > form > div:last-of-type > a:last-of-type:hover {
+  background-color: white;
+  color: #6dcb77;
+}
+
+#carrito + .container > form > div:last-of-type > a:nth-of-type(2) {
+  background-color: rgb(215, 60, 60);
+  border: rgb(215, 60, 60) solid 1px;
+  color: white;
+}
+#carrito + .container > form > div:last-of-type > a:nth-of-type(2):hover {
+  background-color: white;
+  color: rgb(215, 60, 60);
+}
+
+#carrito + .container > form > div:last-of-type > a:first-of-type {
+  background-color: #333399;
+  border: #333399 solid 1px;
+  color: white;
+}
+
+#carrito + .container > form > div:last-of-type > a:first-of-type:hover {
+  background-color: white;
+  color: #333399;
+}
+
+#carrito + .container > form > div:last-of-type > input {
+  background-color: #f5a142;
+  border: #f5a142 solid 1px;
+  color: white;
+}
+
+#carrito + .container > form > div:last-of-type > input:hover {
+  background-color: white;
+  color: #f5a142;
+}
+
+#comprado {
+  margin: 10vw 0;
+  padding: 10vw 0;
+}
+
+#comprado > h1 {
+  color: #6dcb77;
+}
+
+#comprado > p {
+  color: #333399;
+}
+
+.producto,
+.total {
+  margin-bottom: 15px;
+  border-radius: 5px;
+  box-shadow: 0px 8px 15px -5px #3636367c;
+}
+
+.producto > span {
+  font-size: 1.2rem;
+}
+
+.producto > img {
+  max-height: 200px;
+}
+
+.producto > input {
+  width: 6%;
+}
+
+
+
+#vacio {
+  margin: 20vw 0;
+}
+/* Admin */
+
+td a:first-of-type {
+  background-color: #43ca51;
+  color: white;
+}
+
+td a:first-of-type:hover {
+  border: #43ca51 solid 1px;
+  color: #43ca51;
+}
+
+td a:last-of-type {
+  background-color: #b01f1f;
+  color: white;
+}
+
+td a:last-of-type:hover {
+  border: #b01f1f solid 1px;
+  color: #b01f1f;
+}
+
+div > div > .table + a,
+div > div > .table + form > .btn,
+div > div > .table > tbody > tr > td > form > .btn {
+  background-color: #6dcb77;
+  color: white;
+  width: 50%;
+  margin: auto;
+}
+
+.rounded-circle {
+  height: 150px;
+  width: 150px;
+}
+
+div > div > .table + a:hover,
+div > div > .table + form > .btn:hover,
+div > div > .table > tbody > tr > td > form > .btn:hover {
+  background-color: white;
+  border: #6dcb77 solid 1px;
+  color: #6dcb77;
+}
+
+#admin_titule {
+  color: cadetblue;
+  margin: 30px 0;
+}
+#admin_titule_1 {
+  color: cadetblue;
+  font-size: 3.5rem;
+  margin: 30px 0;
+}
+
+.table {
+  width: 90%;
+}
+
+#admin_titule_1 + div > h2 {
+  color: cadetblue;
+  margin-bottom: 20px;
+}
+
+#list {
+  margin-bottom: 243px;
+}
+
+#list > ul > li {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+#conenedor_formulario {
+  display: flex;
+  width: 90%;
+  align-items: center;
+  justify-content: center;
+}
+
+#conenedor_formulario > div {
+  display: flex;
+
+  justify-content: center;
+}
+
+#formulario > button {
+  background-color: #6dcb77;
+  color: white;
+  padding: 15px;
+  width: 50%;
+}
+
+#formulario > button:hover {
+  background-color: white;
+  border: #6dcb77 solid 1px;
+  color: #6dcb77;
+}
+
+#producto > div > #eliminar {
+  background-color: #b01f1f;
+  border: #b01f1f solid 1px;
+  color: white;
+}
+
+#producto > div > #eliminar:hover {
+  color: #b01f1f;
+  background-color: white;
+}

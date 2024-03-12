@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Ahorcado</title>
+  <!-- Link a google fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div id="header">
+    <div id="titulo">
+      <h1>Ahorcado</h1>
+    </div>
+  </div>
+
+  <div id="inicio">
+    <div>
+      <button class="btn-iniciar" id="iniciar-juego">Iniciar Juego</button>
+    </div>
+    <div>
+      <button class="btn" id="nueva-palabra" style="width: 17.5rem;">Agregar Palabra</button>
+    </div>
+  </div>
+
+  <div id="agregar-palabra" class="display-none">
+    <div class="input">
+      <input class="text-input" type="text" id="input-nueva-palabra" placeholder="Ingrese una palabra" maxlength="8">
+    </div>
+    <div>
+      <div class="info">
+        <img src="img/Info.png" style="width: 1rem; height: 1rem;">
+        <p>Máximo de 8 letras, sin espacios</p>
+      </div>
+      <div>
+        <button class="btn btn-bg" style="width: 20.75rem; margin: 1rem;" id="guardar">Guardar y Empezar</button>
+        <button class="btn" id="cancelar" style="width: 20.75rem; margin: 1rem;">Cancelar</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="juego" class="display-none">
+    <canvas id="ahorcado" width="600" height="400"></canvas>
+    <div class="word">
+      <div class="letter">
+        <p>P</p>
+        <img src="img/underline.png">
+      </div>
+      <div class="letter">
+        <p>E</p>
+        <img src="img/underline.png">
+      </div>
+      <div class="letter">
+        <p>R</p>
+        <img src="img/underline.png">
+      </div>
+      <div class="letter">
+        <p>D</p>
+        <img src="img/underline.png">
+      </div>
+      <div class="letter">
+        <p>I</p>
+        <img src="img/underline.png">
+      </div>
+      <div class="letter">
+        <p>S</p>
+        <img src="img/underline.png">
+      </div>
+      <div class="letter">
+        <p>T</p>
+        <img src="img/underline.png">
+      </div>
+      <div class="letter">
+        <p>E</p>
+        <img src="img/underline.png">
+      </div>
+    </div>
+    <div class="other">
+    </div>
+    <div>
+      <p class="advertencias"></p>
+      <input class="mobile" type="text" maxlength="1" placeholder="letra">
+    </div>
+    <div>
+      <button class="btn btn-bg" style="width: 20.75rem; margin: 1rem;" id="nuevoJuego">Nuevo Juego</button>
+      <button class="btn" id="abandonar" style="width: 20.75rem; margin: 1rem;">Abandonar Juego</button>
+    </div>
+  </div>
+
+  <footer>
+    <p>Creado por Tomás Agustín Friz</p>
+  </footer>
+  <!-- JAVASCRIPT -->
+  <script src="js/canvas.js"></script>
+  <script src="js/ahorcado.js"></script>
+</body>
+
+</html>

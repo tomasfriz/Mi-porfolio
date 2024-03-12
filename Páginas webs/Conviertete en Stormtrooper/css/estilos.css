@@ -1,0 +1,81 @@
+body {
+    background-color: #cccccc;
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana;
+}
+
+header {
+    background-color: #B62321;
+    padding: 20px;
+    border-bottom: 5px solid #5F0A08;
+}
+
+header h1 {
+    font-family: Georgia;
+    font-size: 60px;
+    font-style: italic;
+    color: white;
+    background-image: url("../recursos/logo.png");
+    background-repeat: no-repeat;
+    padding: 10px 0px 10px 70px;
+    margin: 0px 0px -20px 0px;
+    /* margin-bottom: -20px; */
+    text-align: center;
+    line-height: 64px;
+    width: 1000px;
+}
+
+header p {
+    width: 1000px;
+    text-align: right;
+    /* padding-right: 145px; */
+    padding: 0px 145px 0px 0px;
+    margin: 0px auto;
+    font-family: Arial;
+    font-size: 31px;
+    color: #5F0A08;
+}
+
+main {
+    background-color: white;
+    width: 1000px;
+    padding: 30px 20px;
+    margin: 0 auto;
+}
+
+main h2 {
+    font-family: 'Trebuchet MS';
+    text-align: right;
+    border-bottom: 1px solid #3D5E78;
+    color: #3D5E78;
+    margin: 0px;
+}
+
+.imagen {
+    padding: 18px;
+    border: 1px solid #DDDDDD;
+    margin-bottom: 30px;
+}
+
+footer {
+    background-image: url("../recursos/fondo_footer.jpg");
+    color: white;
+    padding: 30px;
+}
+
+footer p {
+    width: 940px;
+    text-align: left;
+}
+
+.link {
+    color: darkred;
+    text-decoration: none;
+}
+
+.manual {
+    color: darkgreen;
+    font-size: 18px;
+    font-family: 'Trebuchet MS';
+}

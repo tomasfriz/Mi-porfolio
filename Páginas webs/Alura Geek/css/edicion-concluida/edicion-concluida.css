@@ -1,0 +1,40 @@
+.edicion__concluida {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1rem;
+    padding-top: 2rem;
+    margin-top: 135px;
+    background: var(--fondo-gris);
+}
+
+.caja {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    height: 30vh;
+    align-items: center;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.caja i {
+    font-size: 3rem;
+    color: green
+}
+
+.caja h4 {
+    margin-top: 1rem;
+}
+
+.caja a {
+    box-sizing: border-box;
+    padding: 1rem;
+    margin-top: 2rem;
+    border: 1px solid var(--azul);
+    color: var(--texto-blanco);
+    background: var(--azul);
+    font-style: none;
+}

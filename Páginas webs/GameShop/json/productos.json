@@ -1,0 +1,162 @@
+[
+    {
+        "id": "PS4-01",
+        "titulo": "Assassin's Creed Odyssey",
+        "imagen": "./img/PS4/assassin's-creed-odyssey.webp",
+        "categoria": {
+            "nombre": "PS4",
+            "id": "PS4"
+        },
+        "precio": 2000
+    },
+    {
+        "id": "PS4-02",
+        "titulo": "GTA V",
+        "imagen": "./img/PS4/gta-v.webp",
+        "categoria": {
+            "nombre": "PS4",
+            "id": "PS4"
+        },
+        "precio": 2000
+    },
+    {
+        "id": "PS4-03",
+        "titulo": "Red Dead Redemption 2",
+        "imagen": "./img/PS4/red-dead-redemption-2-ultimate-edition.webp",
+        "categoria": {
+            "nombre": "PS4",
+            "id": "PS4"
+        },
+        "precio": 2000
+    },
+    {
+        "id": "PS4-04",
+        "titulo": "Detroit: Become Human",
+        "imagen": "./img/PS4/detroit-become-human.webp",
+        "categoria": {
+            "nombre": "PS4",
+            "id": "PS4"
+        },
+        "precio": 2000
+    },
+    {
+        "id": "PS4-05",
+        "titulo": "Minecraft",
+        "imagen": "./img/PS4/minecraft.webp",
+        "categoria": {
+            "nombre": "PS4",
+            "id": "PS4"
+        },
+        "precio": 2000
+    },
+    {
+        "id": "PS4-06",
+        "titulo": "God Of War",
+        "imagen": "./img/PS4/god-of-war.webp",
+        "categoria": {
+            "nombre": "PS4",
+            "id": "PS4"
+        },
+        "precio": 2000
+    },
+    {
+        "id": "PS4-07",
+        "titulo": "Until Dawn",
+        "imagen": "./img/PS4/until-dawn.webp",
+        "categoria": {
+            "nombre": "PS4",
+            "id": "PS4"
+        },
+        "precio": 2000
+    },
+    {
+        "id": "PS4-08",
+        "titulo": "Need For Speed",
+        "imagen": "./img/PS4/need-for-speed.webp",
+        "categoria": {
+            "nombre": "PS4",
+            "id": "PS4"
+        },
+        "precio": 2000
+    },
+    {
+        "id": "PS5-01",
+        "titulo": "Battlefield 2042",
+        "imagen": "./img/PS5/battlefield-2042.webp",
+        "categoria": {
+            "nombre": "PS5",
+            "id": "PS5"
+        },
+        "precio": 4000
+    },
+    {
+        "id": "PS5-02",
+        "titulo": "Call Of Duty",
+        "imagen": "./img/PS5/call-of-duty-modern-warfare-2.webp",
+        "categoria": {
+            "nombre": "PS5",
+            "id": "PS5"
+        },
+        "precio": 4000
+    },
+    {
+        "id": "PS5-03",
+        "titulo": "Elden Ring",
+        "imagen": "./img/PS5/elden-ring.webp",
+        "categoria": {
+            "nombre": "PS5",
+            "id": "PS5"
+        },
+        "precio": 4000
+    },
+    {
+        "id": "PS5-04",
+        "titulo": "Spider Man",
+        "imagen": "./img/PS5/Spider-Man.webp",
+        "categoria": {
+            "nombre": "PS5",
+            "id": "PS5"
+        },
+        "precio": 4000
+    },
+    {
+        "id": "PS5-05",
+        "titulo": "Death Stranding",
+        "imagen": "./img/PS5/death-stranding.webp",
+        "categoria": {
+            "nombre": "PS5",
+            "id": "PS5"
+        },
+        "precio": 4000
+    },
+    {
+        "id": "PS5-06",
+        "titulo": "Hogwarts: Legacy",
+        "imagen": "./img/PS5/hogwarts-legacy.webp",
+        "categoria": {
+            "nombre": "PS5",
+            "id": "PS5"
+        },
+        "precio": 4000
+    },
+    {
+        "id": "PS5-07",
+        "titulo": "Demon Slayer",
+        "imagen": "./img/PS5/demon-slayer-kimetsu-no-yaiba.webp",
+        "categoria": {
+            "nombre": "PS5",
+            "id": "PS5"
+        },
+        "precio": 4000
+    },
+    {
+        "id": "PS5-08",
+        "titulo": "Horizon Forbidden West",
+        "imagen": "./img/PS5/horizon-forbidden-west.webp",
+        "categoria": {
+            "nombre": "PS5",
+            "id": "PS5"
+        },
+        "precio": 4000
+    }
+]

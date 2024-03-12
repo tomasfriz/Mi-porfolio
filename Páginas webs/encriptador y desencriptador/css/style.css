@@ -1,0 +1,103 @@
+* 
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body 
+{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  /*background-color: maroon;*/
+  background: -webkit-linear-gradient(90deg, maroon 10%, #181717 90%);
+  background:    -moz-linear-gradient(90deg, maroon 10%, #181717 90%);
+  background:     -ms-linear-gradient(90deg, maroon 10%, #181717 90%);
+  background:      -o-linear-gradient(90deg, maroon 10%, #181717 90%);
+  background:         linear-gradient(90deg, maroon 10%, #181717 90%);
+
+}
+
+.main 
+{
+  width: 80vw;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.titulo 
+{
+  padding: 30px;
+  width: 40vw;
+  margin: auto;
+  color:rgba(204, 17, 17, 0.678);
+  font-size: 50px;
+  font-family:monospace;
+  text-shadow: rgba(26, 24, 23, 0.781) 5px 1px 4px;
+}
+
+.box 
+{
+  padding: 10px;
+  margin: 0 10px 0 10px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  background-color: rgb(151, 42, 42);
+  border-radius: 0.5em;
+  width: 30vw;
+  height: auto;
+}
+
+.btn 
+{
+  background: none;
+  color: #121312;
+  border: 2px solid;
+  font: inherit;
+  line-height: 1;
+  margin: 0.5em;
+  padding: 1em 1em;
+  transition-duration: 0.5s;
+}
+
+.btn:hover, .btn:focus
+{
+  box-shadow: 0 0.5em 0.5em -0.4em;
+  transform: translateY(-0.25em);
+  background-color: #da632d; 
+  color: white;
+}
+
+.text-input 
+{
+  border-radius: 0.5em;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  display: block;
+  padding: 0.5em;
+  width: 100%;
+  height: 100px;
+}
+
+
+/* Estilos del footer */
+.footer 
+{
+  position:fixed;
+  bottom:0;
+  left:0;
+  width:100%;
+  height: 40px;
+  background-color: #13101091;
+}
+
+.footer-text-left
+{
+  font-size:20px;
+  padding-left:50px;
+  float:left;
+  word-spacing:0px;
+}
+
+#texto-encriptar, #texto-copiado
+{
+	color: white;
+}

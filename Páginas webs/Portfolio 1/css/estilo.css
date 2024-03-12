@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman';
+}
+
+h1 {
+    text-align: center;
+}
+
+header {
+    background-color: rgb(24, 38, 38);
+    color: whitesmoke;
+    width: 100%;
+    padding: 20px 0px 20px;
+    margin: 0px auto;
+}
+
+body {
+    background-image: url("../img/patron_dragones.png");
+    margin: 0px;
+    color: white;
+}
+
+.principal {
+    background-color: darkslategray;
+    width: 1000px;
+    padding: 30px 50px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.navegacion {
+    background-color: rgb(139, 181, 181);
+    color: white;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.separacion {
+    margin: 10px;
+    padding: 10px;
+}
+
+.tabla {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.link {
+    text-decoration: none;
+    color: lightslategrey;
+}
+
+footer {
+    background-color: rgb(24, 38, 38);
+    width: 100%;
+    color: whitesmoke;
+    text-align: center;
+    padding: 30px 0px 30px;
+    margin: 0px auto;
+}
+
+input[type=text],
+input[type=tel],
+input[type=email] {
+    width: 80%;
+    padding: 1vw;
+    margin: 1vw;
+    display: inline-block;
+    border: 1vw;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 90%;
+    background-color: darkgreen;
+    color: white;
+    padding: 20px 20px;
+    margin: 10px 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+input[type=reset] {
+    width: 90%;
+    background-color: darkred;
+    color: white;
+    padding: 20px 20px;
+    margin: 10px 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: green;
+}
+
+input[type=reset]:hover {
+    background-color: brown;
+}
+
+form {
+    border-radius: 10px;
+    background-color: darkcyan;
+    padding: 5%;
+    margin: 5% 10%;
+}
+
+.redsoc {
+    color: whitesmoke;
+    text-align: center;
+    margin: 10px;
+    text-decoration: none;
+}

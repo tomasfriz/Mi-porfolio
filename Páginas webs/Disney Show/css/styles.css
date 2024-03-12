@@ -1,0 +1,20 @@
+* {
+	margin: 0%;
+	padding: 0%;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+pre{
+    border:thin solid gainsboro;
+    border-radius: 1em;
+    background-color: ghostwhite;
+    margin: 1em;
+    padding: 1em;
+    color: rgb(44, 44, 44);
+}
+
+body{
+    background-color: darkblue;
+    color: whitesmoke;
+}

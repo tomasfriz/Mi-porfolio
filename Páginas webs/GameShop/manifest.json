@@ -1,0 +1,19 @@
+{
+    "author": "Friz Tomás Agustín",
+    "description": "Parcial 2 PWA - Da Vinci",
+    "name": "GameShop",
+    "dir": "ltr",
+    "orientation": "any",
+    "scope": "./",
+    "start_url": "./",
+    "theme_color": "#b829bd",
+    "background_color": "#0073ff",
+    "display": "standalone",
+    "icons": [
+        {
+            "sizes": "144x144",
+            "type": "image/png",
+            "src": "img/144x144.png"
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "author": "Friz Tomás Agustín",
+    "description": "Parcial 2 Vue - Da Vinci",
+    "name": "Pelinfo",
+    "dir": "ltr",
+    "orientation": "any",
+    "scope": "./",
+    "start_url": "./",
+    "theme_color": "#FFFFFF",
+    "background_color": "#424242",
+    "display": "standalone",
+    "icons": [
+        {
+            "sizes": "144x144",
+            "type": "image/png",
+            "src": "images/144x144.png"
+        }
+    ]
+}

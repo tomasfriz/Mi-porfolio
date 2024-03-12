@@ -1,0 +1,97 @@
+/* cuerpo */
+
+body {
+    background: linear-gradient(rgb(194, 229, 251), white);
+    margin: 0;
+    padding: 0;
+    font-family: Verdana;
+    text-align: center;
+}
+
+/* encabezado */
+
+header {
+    padding: 160px;
+    text-align: center;
+    background-image: url("../img/encabezado.jpg");
+}
+
+nav {
+    position: relative;
+    bottom: 100px;
+}
+
+ul li {
+    display: inline-block;
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+    list-style: none;
+    margin: 30px;
+}
+
+ul li:hover {
+    background-color: lightgrey;
+}
+
+h1 {
+    font-size: 80px;
+    color: white;
+    font-weight: bold;
+}
+
+/* contenido */
+
+main {
+    background-color: moccasin;
+    width: 900px;
+    padding: 10px 35px;
+    margin: 0 auto;
+}
+
+h2 {
+    background-color: cornsilk;
+    padding: 20px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+div a:hover {
+    color: white;
+}
+
+.imagen {
+
+    border: 3px solid black;
+    border-radius: 5px;
+}
+
+a img {
+    padding: 10px;
+    margin: 5px;
+}
+
+a img:hover {
+    background-color: white;
+    border-radius: 100px;
+}
+
+/* pie de pagina */
+
+footer {
+    background-color: darkgrey;
+    color: black;
+    padding: 26px;
+    margin: 0px auto;
+    background-image: url("../img/footer.jpg");
+}
+
+footer p {
+    position: relative;
+    top: 30px;
+    color: white;
+}
