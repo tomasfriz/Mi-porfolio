@@ -1,0 +1,68 @@
+[
+  {
+    "_id": {
+      "$oid": "6522e2ebd5d3e007b4d378b6"
+    },
+    "id": "1",
+    "username": "johnDoey",
+    "email": "john.doe@eexample.com",
+    "password": "password123",
+    "profilePicture": "https://picsum.photos/300",
+    "address": "123 Elm Street, Springfieldddasdassff"
+  },
+  {
+    "_id": {
+      "$oid": "6522e2ebd5d3e007b4d378b7"
+    },
+    "id": "2",
+    "username": "janeSmith",
+    "email": "jane.smith@example.com",
+    "password": "janeSecure123",
+    "profilePicture": "https://picsum.photos/300",
+    "address": "456 Oak Avenue, Metropolis"
+  },
+  {
+    "_id": {
+      "$oid": "6522e2ebd5d3e007b4d378b8"
+    },
+    "id": "3",
+    "username": "user",
+    "email": "alice.johnson@example.com",
+    "password": "12345",
+    "profilePicture": "https://picsum.photos/300",
+    "address": "789 Birch Boulevard, Gotham"
+  },
+  {
+    "_id": {
+      "$oid": "6522e2ebd5d3e007b4d378b9"
+    },
+    "id": "4",
+    "username": "bobBrown",
+    "email": "bob.brown@example.com",
+    "password": "bobbyWorld456",
+    "profilePicture": "https://example.com/images/bobBrown.jpg",
+    "address": "101 Pine Path, Star City"
+  },
+  {
+    "_id": {
+      "$oid": "656cedf2d23941d95d2e102d"
+    },
+    "username": "mati",
+    "email": "matias.varas@davinci.edu.ar",
+    "password": "$2b$10$yeLeQQTVAW1I6PBS4KJfee75KqaJEF6mT63CDxEURPlbKTxWwftHK",
+    "profilePicture": "https://lh3.googleusercontent.com/a/ACg8ocKl8CKX-qlmOjBcBxtZCsS5KPVD3yELG44p0-2iMxf9nIo=s48-p",
+    "address": "Buenos Aires (CABA)",
+    "favorites": [
+      {
+        "courseId": {
+          "$oid": "654a93a52b442e00d506f8f8"
+        },
+        "courseType": "UDEMY",
+        "_id": {
+          "$oid": "656cef0dd23941d95d2e1073"
+        }
+      }
+    ],
+    "__v": 1
+  }
+]

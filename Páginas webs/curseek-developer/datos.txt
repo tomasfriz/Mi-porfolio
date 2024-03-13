@@ -1,0 +1,21 @@
+Carrera: Diseño y Programacion Web
+
+Materia: Clientes Web Mobile
+
+Cuatrimestre: 4
+
+Año: 2023
+
+Turno: Tarde
+
+Comisión: A
+
+Apellido y nombre: Ramirez Jairo, Friz Tomás, Varas Matias
+
+Docente: Santiago Gallino
+
+Carácter de entrega ( Final ).
+
+Idea del proyecto:
+CurSeek es una web en donde se van a almacenar miles de cursos a disposición
+del usuario para que pueda navegar y encontrar el curso perfecto.
